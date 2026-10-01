@@ -1,0 +1,39 @@
+[2026-10-01T16:47:47.252Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.3f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 35336 --ipc-path Unity-Upm-35336 -l 2 --log-file 'C:\\Users\\ARA\\Documents\\GitHub\\Grass-Cutting-Simulator\\Grass Cutting Simulator/Logs/upm.log'
+[2026-10-01T16:47:47.276Z][INFO] IPC server started (IPC path=Unity-Upm-35336).
+[2026-10-01T16:47:47.276Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-35336.
+[2026-10-01T16:47:50.918Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:47:50.978Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-01T16:47:50.985Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-01T16:47:51.036Z][INFO] project:list-packages --> 200 (117 ms)
+[2026-10-01T16:47:51.109Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:47:51.146Z][INFO] project:update-dependencies <-- Request received
+params: {}
+[2026-10-01T16:47:51.164Z][INFO] project:list-packages --> 200 (55 ms)
+[2026-10-01T16:47:51.167Z][INFO] project:update-dependencies --> 200 (21 ms)
+[2026-10-01T16:47:51.206Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-10-01T16:48:01.737Z][INFO] project:resolve-packages --> 200 (10531 ms)
+[2026-10-01T16:48:35.627Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:35.669Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:35.743Z][INFO] project:list-packages --> 200 (116 ms)
+[2026-10-01T16:48:35.780Z][INFO] project:list-packages --> 200 (111 ms)
+[2026-10-01T16:48:35.814Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:35.876Z][INFO] project:list-packages --> 200 (62 ms)
+[2026-10-01T16:48:35.962Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-01T16:48:35.964Z][INFO] config:project:get-registries --> 200 (2 ms)
+[2026-10-01T16:48:37.933Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:38.031Z][INFO] project:list-packages --> 200 (98 ms)
+[2026-10-01T16:48:39.245Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:39.345Z][INFO] project:list-packages --> 200 (100 ms)
+[2026-10-01T16:48:40.224Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-01T16:48:41.313Z][INFO] project:list-packages --> 200 (1089 ms)
