@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA" at "2026-10-01T17:29:14.1173842Z"
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili" at "2026-10-01T17:25:55.351467Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'fi' Physical Memory: 32023 MB
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32451 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-01T17:25:55Z
+Date: 2026-10-01T17:29:14Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17596, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              3a0d87d5f5db4ef2b4447af1916e958e
+  Correlation Id:          d115a782ca8968c2ff33704db9d6d565
+  External correlation Id: 785320605005599939
+  Machine Id:              FsxY2Qad/u72lkyk2UQIeosbrXw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ARA" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA-notifications" at "2026-10-01T17:29:14.1430246Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
@@ -15,15 +26,15 @@ C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
 -name
 AssetImportWorkerHW2
 -projectPath
-C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 -logFile
 Logs/AssetImportWorkerHW2.log
 -srvPort
-31172
+54356
 -parentPid
-21032
+40628
 -analyticsCloudUserId
-5773977707800
+5774129977459
 -analyticsCloudProjectId
 7d824529-088f-4f09-9f4c-c0d29d82a747
 -analyticsLocalProjectId
@@ -31,14 +42,14 @@ Logs/AssetImportWorkerHW2.log
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-cb9776e15f345ce24656809293ac4ff9fbc95dd9
+dc8ef1aa223a41a0a2db34631f8bf1d604cf272a
 -cbmMachineId
-PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+FsxY2Qad/u72lkyk2UQIeosbrXw=
 -licensingIpc
-LicenseClient-Vili
+LicenseClient-ARA
 -noDiagnosticSwitchPersistentStore
 -job-worker-count
-9
+13
 -background-job-worker-count
 8
 -asset-garbage-collectors
@@ -46,8 +57,8 @@ LicenseClient-Vili
 -force-d3d12
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
-C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+Successfully changed project path to: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -85,31 +96,27 @@ C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [33284]  Target information:
+Player connection [27144]  Target information:
 
-Player connection [33284]  * "[IP] 192.168.1.217 [Port] 0 [Flags] 2 [Guid] 2627468008 [EditorId] 2627468008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27144]  * "[IP] 192.168.100.24 [Port] 0 [Flags] 2 [Guid] 301010902 [EditorId] 301010902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FH60KNT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [33284]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2627468008 [EditorId] 2627468008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [33284]  * "[IP] 169.254.123.238 [Port] 0 [Flags] 2 [Guid] 2627468008 [EditorId] 2627468008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [33284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [33284] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [27144] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27144] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Resource namespace: cc13ed0f4855ae4f5477f0ef9e7797cf
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: true
   - Service working directory: Library/DataStore/
-Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -119,72 +126,57 @@ Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
 Initialize engine version: 6000.6.3f1 (45d8eee7de74)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Renderer:        NVIDIA GeForce RTX 4070 (ID=0x2786)
     Vendor:          NVIDIA
-    VRAM:            15995 MB
-    App VRAM Budget: 15227 MB
-    Driver:          32.0.16.1074
+    VRAM:            12010 MB
+    App VRAM Budget: 11242 MB
+    Driver:          32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.3'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vili"
-[Licensing::IpcConnector] LicenseClient-Vili channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3" at "2026-10-01T17:25:56.1238738Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16672, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              4e546b5df94b4556835ac08f2a40d40d
-  Correlation Id:          947898cfd82374f4dad27c0b7eaf9e4d
-  External correlation Id: 4699774090689951616
-  Machine Id:              PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vili-6000.6.3" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3-notifications" at "2026-10-01T17:25:56.1309696Z"
-[Licensing::Module] Licensing Background thread has ended after 0.78s
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001505 seconds.
+Registered in 0.001951 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.409 seconds
-Domain Reload Profiling: 864ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.411 seconds
+Domain Reload Profiling: 884ms
+	BeginReloadAssembly (109ms)
 	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
 		LoadAssemblies (107ms)
-		TypeCache.Refresh (182ms)
-			TypeCache.ScanAssembly (170ms)
+		TypeCache.Refresh (194ms)
+			TypeCache.ScanAssembly (180ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (409ms)
+	FinalizeReload (412ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (87ms)
-			ProcessInitializeOnLoadMethodAttributes (151ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 5773977707800-UnityPersXXXX
+  Id: 5774129977459-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
@@ -195,6 +187,7 @@ Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -203,104 +196,1268 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.586 seconds
-Domain Reload Profiling: 1371ms
-	BeginReloadAssembly (192ms)
-		DisableScriptedObjects (13ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (523ms)
-		LoadAssemblies (294ms)
-		TypeCache.Refresh (140ms)
-			TypeCache.ScanAssembly (126ms)
-		AnalyzeDomain (59ms)
-			BuildScriptInfoCaches (54ms)
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 1436ms
+	BeginReloadAssembly (194ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (567ms)
+		LoadAssemblies (319ms)
+		TypeCache.Refresh (148ms)
+			TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (70ms)
+			BuildScriptInfoCaches (64ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (587ms)
+	FinalizeReload (594ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6578 unused Assets / (6.5 MB). Loaded Objects now: 7501.
-Memory consumption went from 355.9 MB to 349.4 MB.
-Total: 6.259200 ms (FindLiveObjects: 0.972700 ms CreateObjectMapping: 0.260000 ms MarkObjects: 3.587600 ms  DeleteObjects: 1.207900 ms)
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6614 unused Assets / (10.2 MB). Loaded Objects now: 7467.
+Memory consumption went from 354.4 MB to 344.2 MB.
+Total: 6.611100 ms (FindLiveObjects: 0.448800 ms CreateObjectMapping: 0.260100 ms MarkObjects: 3.730600 ms  DeleteObjects: 1.972300 ms)
 
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.2967593Z
-  Time since last request: 257420.21763259998988 seconds.
-  importAddress: GUID: 2ec966d90911a454c9760fa28789a4f8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx - Importer: PreviewImporter
-Importing 'GUID: 2ec966d90911a454c9760fa28789a4f8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx)
-Imported 'GUID: 2ec966d90911a454c9760fa28789a4f8' -> (Import Result ID: 'a860e3df960807d6d7574eccc985ae76') in 0.395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=957d25c0cf2d77397fce2f5bafd5322b DependenciesID=ea4c2ca16e960993f208451554cfda6f StaticDependenciesID=521ebb4e6c564b853dc2b97b3e1dade5 
+  Time of request: 2026-10-01T17:29:24.4533082Z
+  Time since last request: 607968.07485299999826 seconds.
+  importAddress: GUID: 3ade7fcf53c8246418eb3c493d6d2178 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ade7fcf53c8246418eb3c493d6d2178 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ade7fcf53c8246418eb3c493d6d2178' -> (Import Result ID: 'bbc57e6e9d1ad7d0d019ca8210cdc536') in 0.094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50f03fdf3e9abcecdbf36b4725b171da DependenciesID=ad25ab32612ab687519b26c7e6a3a110 StaticDependenciesID=8c941671408c4c3dd7acf424b63411f4 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.7014071Z
-  Time since last request: 0.000028 seconds.
-  importAddress: GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: PreviewImporter
-Importing 'GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+  Time of request: 2026-10-01T17:29:24.5556254Z
+  Time since last request: 0.000019 seconds.
+  importAddress: GUID: fa0c858bdcc96034db2d517c25f78cbc - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa0c858bdcc96034db2d517c25f78cbc - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa0c858bdcc96034db2d517c25f78cbc' -> (Import Result ID: '15b4812469c1b5e9bc6d02003e773411') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc8df1fb87d4c7e84d4fcb6e6069f035 DependenciesID=45d3cb71835dd13e0808a6d91a335145 StaticDependenciesID=bc11013b3f9f6291d37600003f329b17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.5867405Z
+  Time since last request: 0.0002614 seconds.
+  importAddress: GUID: e5e1b3c0d2be60b47981235187af0936 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_River_Rock_Pile_02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e5e1b3c0d2be60b47981235187af0936 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_River_Rock_Pile_02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_River_Rock_Pile_02.fbx)
+Imported 'GUID: e5e1b3c0d2be60b47981235187af0936' -> (Import Result ID: '3d0bd0666cb57657fa79c2d622fba3ca') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7b4f9a9274b37161a324622c34f3fe5 DependenciesID=d35627a788f408ca15083755fe00c40b StaticDependenciesID=2b3ecb42582dce4ae85df2fc033c909e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6095382Z
+  Time since last request: 0.0002292 seconds.
+  importAddress: GUID: 3ebf65d3a6489594ca09a35d85d43b0a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ebf65d3a6489594ca09a35d85d43b0a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx)
+Imported 'GUID: 3ebf65d3a6489594ca09a35d85d43b0a' -> (Import Result ID: '37b43bf473d5454ae45e1b48fa6c2d3d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58b41ee8f3f6b1cf504825a668069699 DependenciesID=6a220b12d4b04596bffbd9fda14eb535 StaticDependenciesID=0fbcac70d9a0e3849ee777d4161e70b7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6214382Z
+  Time since last request: 0.0002236 seconds.
+  importAddress: GUID: 53e1939cdeda3f04caaa240bfd830e5e - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 53e1939cdeda3f04caaa240bfd830e5e - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 53e1939cdeda3f04caaa240bfd830e5e' -> (Import Result ID: '46d69c9abaf0b3d65e53b4ab6fd8cb9d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d3bc8ae27929606d54bed20060bc021 DependenciesID=968f1ec0a0415d2bc81e1fa08ee85065 StaticDependenciesID=7c4f8ac767d1f8895ffda69297034a75 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6323189Z
+  Time since last request: 0.0002187 seconds.
+  importAddress: GUID: 8c71f03fcb0c13644a30696cafc5cda8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c71f03fcb0c13644a30696cafc5cda8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx)
+Imported 'GUID: 8c71f03fcb0c13644a30696cafc5cda8' -> (Import Result ID: '9e3dcfe01b2437772240948dda71e7e4') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=614b7039aa5e5d26b690c49dc2816c8e DependenciesID=cd15b723634318d2b36a6ec30504e205 StaticDependenciesID=c88308bebd5fc67480bf5a145d0cf6cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6445856Z
+  Time since last request: 0.0002106 seconds.
+  importAddress: GUID: d250af4848f51154f9a2bf6a85b60ac2 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d250af4848f51154f9a2bf6a85b60ac2 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d250af4848f51154f9a2bf6a85b60ac2' -> (Import Result ID: 'a4704f6b5bb656035d5b6fc4c4e55141') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cfe1cc0801f8cee76ab7071d4b76d0c DependenciesID=9b09e8fb7f87de433d7e31b22a28c439 StaticDependenciesID=ab6d84c8d51f8a56c9e0eaff86a2153c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.653824Z
+  Time since last request: 0.0001521 seconds.
+  importAddress: GUID: db696abb7e2d76c409c7c5cdb95101a0 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db696abb7e2d76c409c7c5cdb95101a0 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db696abb7e2d76c409c7c5cdb95101a0' -> (Import Result ID: 'af847ae9dfdb5a0bd1d67340ac289fe0') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e6694f86f5d3631466ed6ba4ff4104b DependenciesID=b080b46f5599c2b2f27a5f4a8f2bd9f8 StaticDependenciesID=35d642f613c3eccbfba705e1039e5135 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6627961Z
+  Time since last request: 0.0002656 seconds.
+  importAddress: GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 58cd8dc8c2359174baa15aa31e302c8b' -> (Import Result ID: '308d378cf7a74c8b3aaad1f59e4ff6db') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0093dbe977847d81bffa4f4fb0e7df6 DependenciesID=40c2a06ae74a5a5b48ac7dcc3e3fa127 StaticDependenciesID=ccc73a1e189a43b834956a8a364e04af 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6729108Z
+  Time since last request: 0.0002159 seconds.
+  importAddress: GUID: 255b400e6b8ac644588946664da1ff3f - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 255b400e6b8ac644588946664da1ff3f - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Shaders/PT_Buildings_Shader_PBR.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 255b400e6b8ac644588946664da1ff3f' -> (Import Result ID: '87873c0d3df84d78505a24b816a6ae2d') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=798f4ca3cb7c6f952b0de0969cf22cea DependenciesID=0ef4e177322427302a0ce13250a377cd StaticDependenciesID=15544bfae5e9a4391bc2f376a145a814 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6859456Z
+  Time since last request: 0.0002356 seconds.
+  importAddress: GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7917e70f5baa68944aad80732cb08b3d' -> (Import Result ID: '529825de874243b0ec101b61594c015a') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5065811f4755b2cf0adecf9dfa49b634 DependenciesID=55dddf387beafda423efe01517922174 StaticDependenciesID=226905a9dca2c1a41e9b3c126bd83948 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.6963359Z
+  Time since last request: 0.0002655 seconds.
+  importAddress: GUID: 62117514495abd046b014d1c85ba4c7a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 62117514495abd046b014d1c85ba4c7a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 62117514495abd046b014d1c85ba4c7a' -> (Import Result ID: '10c1e19a3562dbb55e9f75c7b3744a14') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=245a83d0ba18d656c174b6d320ab144f DependenciesID=a35997b5e1279794121248672582f63c StaticDependenciesID=1c4c1092662785616e8e71bdee8503c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.7040484Z
+  Time since last request: 0.0002938 seconds.
+  importAddress: GUID: f42a2ed0c78e45643bba339ed33235d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f42a2ed0c78e45643bba339ed33235d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx)
+Imported 'GUID: f42a2ed0c78e45643bba339ed33235d4' -> (Import Result ID: '87e5464d4cadcac8f6d8956f3409df5e') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78ea7016a8571fe00c71580cc53353fb DependenciesID=b814ceb436a45a9a0d5267cf9fa78523 StaticDependenciesID=d7e7374b4a786bccd2ced90f60346b2a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.7159188Z
+  Time since last request: 0.0001916 seconds.
+  importAddress: GUID: e807c876d0b15e1408d27b4ce183f39b - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e807c876d0b15e1408d27b4ce183f39b - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/demo1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e807c876d0b15e1408d27b4ce183f39b' -> (Import Result ID: 'd0ee74030469c6a88f6458a3fa5f92b5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19c3e96d361c19832d1ce9a3e2f82b76 DependenciesID=3b2b74a433cab1b3b5706d32b8c7a660 StaticDependenciesID=301506d3e2c660860c9ada718721be67 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.7277252Z
+  Time since last request: 0.0002143 seconds.
+  importAddress: GUID: 0f3d14a9a6b2ceb469c15d151552a614 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0f3d14a9a6b2ceb469c15d151552a614 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0f3d14a9a6b2ceb469c15d151552a614' -> (Import Result ID: '381f0ddce6ae036d40a9c22f6e063b25') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d99f8b03ce18cf91498579f047680400 DependenciesID=796378b79ddaf094120ab020b16006ec StaticDependenciesID=e8bc013dc1c375ba1b32669d60744fba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.7382149Z
+  Time since last request: 0.0003468 seconds.
+  importAddress: GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
 MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx)
-Imported 'GUID: 13bd9962aed9bef41bc2dd73a559c317' -> (Import Result ID: '0f6775b6a441457c25cf390264b34dd8') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e53fb4e9ad293d2b0fb1562b4b58fc8a DependenciesID=2ec31ebff47bb6994e0e01b87b870d10 StaticDependenciesID=6a2ebce0a22e00386a4b4d273c3254bd 
+Imported 'GUID: 13bd9962aed9bef41bc2dd73a559c317' -> (Import Result ID: '295075d51348210e23f7f7fff14e9f46') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04a6564225f77e207a2f468f01f6383c DependenciesID=f9b40ae7c6671a6893cf6fd1a7b769f3 StaticDependenciesID=2773965f6edb9a88698745986716f3e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.7506962Z
+  Time since last request: 0.0003193 seconds.
+  importAddress: GUID: 3b8d3c0077d69eb4db5ee5754518f067 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3b8d3c0077d69eb4db5ee5754518f067 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx)
+Imported 'GUID: 3b8d3c0077d69eb4db5ee5754518f067' -> (Import Result ID: '3c437dedc5f9fc5a45ff5d5333d528e4') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27d7bcd12bd41c737059bb320956047f DependenciesID=f789500d4f059a0c9b21f14fb96e9967 StaticDependenciesID=9b050269ca961c71aa532025c2b83f69 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8105691Z
+  Time since last request: 0.0477777 seconds.
+  importAddress: GUID: 2c59246f075efff4eacdd481ad75421a - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2c59246f075efff4eacdd481ad75421a - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_03.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2c59246f075efff4eacdd481ad75421a' -> (Import Result ID: 'ff1b5fadbd3cc6a0d765ab76bde35f7e') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0f58ee71bf048aa325159949782859f DependenciesID=85701e5a87a8110b8760ab3f36f3ed5f StaticDependenciesID=51b5d7165400778ce4f7aa6150648e98 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.7243016Z
-  Time since last request: 0.0008288 seconds.
-  importAddress: GUID: be10e17a73c475f41849cedee3245fd3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx - Importer: PreviewImporter
-Importing 'GUID: be10e17a73c475f41849cedee3245fd3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx)
-Imported 'GUID: be10e17a73c475f41849cedee3245fd3' -> (Import Result ID: 'e8b75c4fb0f95731b79c9670aa27eb49') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68b1e521a8a4e7c932eb7d295ec7845a DependenciesID=2b62b6037a6381366b4bf006da5f9f52 StaticDependenciesID=7bc0b9b116e5d09e45e5ef418705a24e 
+  Time of request: 2026-10-01T17:29:24.8247823Z
+  Time since last request: 0.0002165 seconds.
+  importAddress: GUID: 5c2928345bc8a9f4793d01e4fcd0b64d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5c2928345bc8a9f4793d01e4fcd0b64d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5c2928345bc8a9f4793d01e4fcd0b64d' -> (Import Result ID: '9a66c66c7d0b06fb31696c1e0bfaab79') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77f868e5a018d6c341c55b527eee8e7c DependenciesID=6a8dac1072287ca2e53cd22651f3f5f7 StaticDependenciesID=fb5cf4c838511063196e5607e4b692bf 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.7660304Z
-  Time since last request: 0.0011218 seconds.
-  importAddress: GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter
-Importing 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx)
-Imported 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d' -> (Import Result ID: '7828544811a9eadd33cdf6d54b700b02') in 0.105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d787b1635b7eab8cae04f4aa9fa8b20a DependenciesID=986fed375684c31e28d02ed91a58ecd9 StaticDependenciesID=9f520e860e5c8fdae8f56ed0e150147b 
+  Time of request: 2026-10-01T17:29:24.8340196Z
+  Time since last request: 0.0010763 seconds.
+  importAddress: GUID: 15516ce43a134df489bc4818fe4f56a0 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 15516ce43a134df489bc4818fe4f56a0 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 15516ce43a134df489bc4818fe4f56a0' -> (Import Result ID: 'cc09fa1251eb8f0fdd152bda5f6ee149') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c0e7bfc4b983ffeced85cfd0e513f20 DependenciesID=771350f1cbf92b352db0c257a16b9f8b StaticDependenciesID=1698bc343bf91dfe743eb4120fe99da9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8433817Z
+  Time since last request: 0.0003061 seconds.
+  importAddress: GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx)
+Imported 'GUID: a9129ae83f8faf646961b70c4b103833' -> (Import Result ID: '4de85b5be210854cd4b35c8f8639a75c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3b9b195b01cbd162740a92b9db89253 DependenciesID=f175b549c9b9ceae6b47732786a4e7dc StaticDependenciesID=60ab0eca05d37067adc37671ecac5a22 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8568978Z
+  Time since last request: 0.0001985 seconds.
+  importAddress: GUID: ae358aa425fe140409d8a560f4492730 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ae358aa425fe140409d8a560f4492730 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Fence_Wood_02.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ae358aa425fe140409d8a560f4492730' -> (Import Result ID: 'd5bddbb9c4f97bcec022ddd51316c75b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5bde2f8268d84935fc30c27cad2be57 DependenciesID=bccfcb03a8faf65f3c0017e5d5d514ba StaticDependenciesID=c97ae41a555ca6073fbcbc88a946575b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8703941Z
+  Time since last request: 0.0002109 seconds.
+  importAddress: GUID: 4c216a70af6ef22419431af877580ddb - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Plane mat.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4c216a70af6ef22419431af877580ddb - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Plane mat.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4c216a70af6ef22419431af877580ddb' -> (Import Result ID: '713793aa858ffcaa36fa8a8e5bd6169b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9133f9c48bfa3ee86532d991b37100cd DependenciesID=b0aa2281d8e176e40bdb6bdcbad4d7cf StaticDependenciesID=06bc2e76fa6c20a5db6695ae98a0a97e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8893593Z
+  Time since last request: 0.0002892 seconds.
+  importAddress: GUID: 3ba94cc50bb068c4bb427a52fdcb0038 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ba94cc50bb068c4bb427a52fdcb0038 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ba94cc50bb068c4bb427a52fdcb0038' -> (Import Result ID: 'fb89f8645fc585517d7ecf9a2231d91f') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63f0ee72be33e3573c262380f13d5e04 DependenciesID=08fa8483bde60a8016f9803adb664a56 StaticDependenciesID=8b28f61d960fdb273d866f1d95853686 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.8985033Z
+  Time since last request: 0.0002818 seconds.
+  importAddress: GUID: 724a83e90c1cd7b4b9d1b71dd08962b6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Flowers_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 724a83e90c1cd7b4b9d1b71dd08962b6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Flowers_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 724a83e90c1cd7b4b9d1b71dd08962b6' -> (Import Result ID: '5684a4c77d9e89b0d669a8e3efd38e50') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7e52d7448b9f2e9595046aa6f8f8a18 DependenciesID=99be02969ed8b7a54342cb304a72a9ca StaticDependenciesID=5b23f8e9ea2340eb38ddbe4e52d10767 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9164545Z
+  Time since last request: 0.0005342 seconds.
+  importAddress: GUID: f226223b3a11d2d4b980aaa520301583 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f226223b3a11d2d4b980aaa520301583 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx)
+Imported 'GUID: f226223b3a11d2d4b980aaa520301583' -> (Import Result ID: '4c3980324a22bce72c2019be75518622') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44f65f805992362cae33b1480ced9fdf DependenciesID=af77e0c0331bd435ac782d91d51ca096 StaticDependenciesID=5d252e7a6bf760e3d5e178dedbda159f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9308672Z
+  Time since last request: 0.0003977 seconds.
+  importAddress: GUID: e9a01d2a3de15954eb2cccf4df7f3d5b - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_logs.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e9a01d2a3de15954eb2cccf4df7f3d5b - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_logs.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_logs.fbx)
+Imported 'GUID: e9a01d2a3de15954eb2cccf4df7f3d5b' -> (Import Result ID: '49c60ae33c5001cd4b8e230b885de3cc') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26145786b757d3c67579dbcd86b13038 DependenciesID=9d05171343473512464d8e1c00af177a StaticDependenciesID=a2c25ae7bf783880e5fca12a6599360c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9433586Z
+  Time since last request: 0.0001914 seconds.
+  importAddress: GUID: 394ffe8a892cb8c47a1f7a9e715075b9 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 394ffe8a892cb8c47a1f7a9e715075b9 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 394ffe8a892cb8c47a1f7a9e715075b9' -> (Import Result ID: '5ef27d496564cd24732276fa42e5d00a') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbab55f8863f29b330a2c6094506aded DependenciesID=b786584754e0d6997c3dca8037e1b74d StaticDependenciesID=d3579df56309a2649cb5d42fe1709d1e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9522667Z
+  Time since last request: 0.0003026 seconds.
+  importAddress: GUID: c7827efbbf7212f42803476ce3f9d082 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c7827efbbf7212f42803476ce3f9d082 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c7827efbbf7212f42803476ce3f9d082' -> (Import Result ID: '433a57bb3961abd886e324fc619b596b') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a553241b209a3d952fe6fa8badfabfa1 DependenciesID=83d2c80e1232b9fd3172616a5c891b08 StaticDependenciesID=ed163bf61aaa13f7e50cc546986deede 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9622367Z
+  Time since last request: 0.0002327 seconds.
+  importAddress: GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ef8374d642969b14baa54045236c5fb0' -> (Import Result ID: '6975c7c25befdd366f47ae11727506de') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b2b7da0e1a8389e1b1f8937d718c3fd DependenciesID=f6843e57aa752cb41921f25db6c08312 StaticDependenciesID=3e235863110e3c1611ac0ca0fd4cdc69 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9722002Z
+  Time since last request: 0.0002567 seconds.
+  importAddress: GUID: 63f20a75401bcd4418b3dbe0f81337bf - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game4.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 63f20a75401bcd4418b3dbe0f81337bf - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/game4.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 63f20a75401bcd4418b3dbe0f81337bf' -> (Import Result ID: '81df6c0317c6a5558b3c3a6ca064838f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dd6fc220efe33d18550dc2168e4bb7b DependenciesID=eab3808a945993d0252580b5a420bffd StaticDependenciesID=c6db3df9700e08b19e6787b2121e0252 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9839675Z
+  Time since last request: 0.0003464 seconds.
+  importAddress: GUID: fb070a2d31206d9499ecc8a77be0ebf0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fb070a2d31206d9499ecc8a77be0ebf0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_stump.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fb070a2d31206d9499ecc8a77be0ebf0' -> (Import Result ID: '62416fcffc5b8c582e46e8e155fba08b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6e6f60c8bb0d61f5089ec2293dcadf9 DependenciesID=637b736c9aef181bcef2992bb1b88719 StaticDependenciesID=3c2536f809a3922c9088c1e694dc45a1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:24.9968005Z
+  Time since last request: 0.0002286 seconds.
+  importAddress: GUID: e0829138c40f356458f259edb063d67a - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e0829138c40f356458f259edb063d67a - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Terrain/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+The tree PT_Pine_Tree_03_stump must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 355]
+
+The tree PT_Fruit_Tree_01_logs must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 355]
+
+The tree PT_Caesars_Mushroom_01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 355]
+
+Imported 'GUID: e0829138c40f356458f259edb063d67a' -> (Import Result ID: '41ff591212fa23a1212c57809581f4b0') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86f96933b4115321ed166484a298ca82 DependenciesID=91686ea454ed46e9e3a7ff6fd50379eb StaticDependenciesID=87170234e5fbb1b209e52623cae19023 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 327
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0328926Z
+  Time since last request: 0.0000172 seconds.
+  importAddress: GUID: 5228c984e5be7284d8d83c18096254dd - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5228c984e5be7284d8d83c18096254dd - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5228c984e5be7284d8d83c18096254dd' -> (Import Result ID: '08e7cf781bb9113b2f894edd229fd8f5') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc6b4b91fc2481586b47609384df0fde DependenciesID=4499152896b0831df258bf2feffe5278 StaticDependenciesID=f48dd2aa1c993d399b3f3d8fdcb16f86 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0454669Z
+  Time since last request: 0.0002765 seconds.
+  importAddress: GUID: 290c306efce63f0419ccb2974a325792 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 290c306efce63f0419ccb2974a325792 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 290c306efce63f0419ccb2974a325792' -> (Import Result ID: 'a2565b131ec561ec5d71d20ca4805b6b') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bc357ddbcd3cde50a2c9d043aee03f7 DependenciesID=83df368df199a5ff83cd8c134b3a2372 StaticDependenciesID=d1fea34df11a7c2900a0bf6dea8f6fd4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0550869Z
+  Time since last request: 0.0003065 seconds.
+  importAddress: GUID: 8cf2966042f7c2f44ac97cda7cc59eff - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_dead.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8cf2966042f7c2f44ac97cda7cc59eff - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_dead.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8cf2966042f7c2f44ac97cda7cc59eff' -> (Import Result ID: '0e00073912d4e368678db366054e24a3') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4508cc27dd5d65c213d3f4aed32035f8 DependenciesID=d72d5b8774d3bea19c68702f74d4bdae StaticDependenciesID=5c1dde0e4c5a0307c29c1f4715194782 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0651782Z
+  Time since last request: 0.0002325 seconds.
+  importAddress: GUID: 50084c0ced59c5243b289606ec1aaa1d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 50084c0ced59c5243b289606ec1aaa1d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 50084c0ced59c5243b289606ec1aaa1d' -> (Import Result ID: 'fde821dcf088016bc027acca3e1d8e8d') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beebea2b89c949083b781ab24ae91d8b DependenciesID=d0589e822c674cd6f5074ee3ce112baf StaticDependenciesID=7566aeaad67608c2ca8bb90cd39ff02b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0752252Z
+  Time since last request: 0.0003524 seconds.
+  importAddress: GUID: 39cf68574afc7f248bd78a99c3800e00 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Water_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 39cf68574afc7f248bd78a99c3800e00 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Water_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 39cf68574afc7f248bd78a99c3800e00' -> (Import Result ID: '26606e09af2773bb5fac25652cfa6c3e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2c0d32fe1deaadadd31a5d90742263e DependenciesID=2cbd89b71e45bdcae061e566662e815c StaticDependenciesID=dd929c1dc085952494de2c6634aca8d4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0854295Z
+  Time since last request: 0.0002411 seconds.
+  importAddress: GUID: 77e1a76a38ecd5a46a270afb12894dd5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 77e1a76a38ecd5a46a270afb12894dd5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 77e1a76a38ecd5a46a270afb12894dd5' -> (Import Result ID: '73b82e7ff362a869ecdac88ce9f9a2f9') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ea5b2bde671b4862b466a23fe42b5bc DependenciesID=24fafd1c22ffc88fcaa8b3d5c2caed47 StaticDependenciesID=e8928aa754abdc6843ba514509477e1e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.0969367Z
+  Time since last request: 0.000253 seconds.
+  importAddress: GUID: 4202bcf0261b7184381139880446dfd6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4202bcf0261b7184381139880446dfd6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4202bcf0261b7184381139880446dfd6' -> (Import Result ID: '92c7bd4f80406131c08e885f49377298') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2de756934f0fa18c43ae6e1ae0542b16 DependenciesID=2a0288dbf604799e21470928e8554b03 StaticDependenciesID=f13827b78a411220e193a5de219ea4fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.1079039Z
+  Time since last request: 0.0002188 seconds.
+  importAddress: GUID: 55a083d549e055045948e2083099df16 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Leaves_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 55a083d549e055045948e2083099df16 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Leaves_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 55a083d549e055045948e2083099df16' -> (Import Result ID: '29dea032a7f4f4162508ac2454ea1178') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1a14295be147bd08030543a818530f2 DependenciesID=3dd44fc3b12ffcff8fa627a9cc403aa0 StaticDependenciesID=0075c37e5987d6371cc8578eb3f0c6ef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.1637972Z
+  Time since last request: 0.0385644 seconds.
+  importAddress: GUID: 3d254d49ff5ec1f458f7a2fbae9555d2 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d254d49ff5ec1f458f7a2fbae9555d2 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d254d49ff5ec1f458f7a2fbae9555d2' -> (Import Result ID: '2b04dcbb98b128d7cf7b62ba335a0e7e') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89d638c0cb40b91c92952e2fc36b1ecf DependenciesID=9f2bea7264b08ad9a8690579f5ea6687 StaticDependenciesID=42c3a217bfaf4e02d1be126c23b4cd25 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.1734144Z
+  Time since last request: 0.0005402 seconds.
+  importAddress: GUID: 9c4cb87f53ebd5c468c413df16c5ea33 - Path: Assets/Polytope Studio/Lowpoly_Village - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9c4cb87f53ebd5c468c413df16c5ea33 - Path: Assets/Polytope Studio/Lowpoly_Village - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9c4cb87f53ebd5c468c413df16c5ea33' -> (Import Result ID: '4a184c53b407f2b9616342931b9bd066') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40b4c154a86eaa2947428e6b95d34137 DependenciesID=50f8fa701dfd940ca2d2d702302f62b6 StaticDependenciesID=878e4b0d3d8262226a05349e9b693dca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.1830006Z
+  Time since last request: 0.000299 seconds.
+  importAddress: GUID: 5733ec0c27e7c9d41a230d27ca7b85d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5733ec0c27e7c9d41a230d27ca7b85d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5733ec0c27e7c9d41a230d27ca7b85d4' -> (Import Result ID: 'd551bb4a7516ac5b0bbbc3643c8ea94a') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=215c95c0ea6d7435a3d3edb67d65c6b3 DependenciesID=baa7ec1fdc23d6b052093eb7e6fb8e9b StaticDependenciesID=424bfe7a8faf3caaa94a602de1b3053d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.1987999Z
+  Time since last request: 0.0004897 seconds.
+  importAddress: GUID: da4b5e2c1255f2e40bad4bd005f99f2c - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_Medieval_Buildings_Texture_01mask2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: da4b5e2c1255f2e40bad4bd005f99f2c - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Textures/PT_Medieval_Buildings_Texture_01mask2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: da4b5e2c1255f2e40bad4bd005f99f2c' -> (Import Result ID: '09651c0d6f30b3d1c28dbee2259eefb9') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=493c18fb9687d0cd5d35ad3f08ed1fac DependenciesID=f644ab5ddc57ceeb8d6b6e536ab17d9e StaticDependenciesID=980f90ad8f137ecdb0543e6eb2e54d46 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2094579Z
+  Time since last request: 0.0002507 seconds.
+  importAddress: GUID: b1d2d07a2fd7be646ab43c446a26a69e - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/banner_dark.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b1d2d07a2fd7be646ab43c446a26a69e - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/banner_dark.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b1d2d07a2fd7be646ab43c446a26a69e' -> (Import Result ID: 'ea86a11ef96d373c6978eb733bcf9cd5') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80c90323109939bb0638917a8a12b8c0 DependenciesID=7b6fe1401f8c22c9c256d6028ad90c35 StaticDependenciesID=6d2dc54de749bebe926ee0b071a205cf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2217785Z
+  Time since last request: 0.0002483 seconds.
+  importAddress: GUID: e4f62d5abc5742c4eabbbf96fe54193c - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_River_Rock_Pile_02_v1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e4f62d5abc5742c4eabbbf96fe54193c - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_River_Rock_Pile_02_v1.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e4f62d5abc5742c4eabbbf96fe54193c' -> (Import Result ID: '984dc039700448f907f669804d450700') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf960de657412dcbb8dfc09f9f80da82 DependenciesID=e07847d719748b6e07ad0406fc6dd2c9 StaticDependenciesID=e9a3905064db4f59a896569993a7d47b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.232057Z
+  Time since last request: 0.0001913 seconds.
+  importAddress: GUID: a4be55d94a4745c489dca6d060068259 - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_facebook.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a4be55d94a4745c489dca6d060068259 - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_facebook.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a4be55d94a4745c489dca6d060068259' -> (Import Result ID: '4b099b313cacca02c54d0df1b3f71512') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3e507cf18862be6f401fe71595affb8 DependenciesID=6319d106ec3b22b1531ed1175188e5da StaticDependenciesID=39e00bc1971f907d026473af6e34640d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2438659Z
+  Time since last request: 0.0003769 seconds.
+  importAddress: GUID: 270965b004462ae41bd125bc783c0fa6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 270965b004462ae41bd125bc783c0fa6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 270965b004462ae41bd125bc783c0fa6' -> (Import Result ID: '951f03fd86d5bec1acf7db532442a5e8') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a0c5261114251b7d47a067e0bc1d468 DependenciesID=6cc3b1faf010216f36cbe1888241c12c StaticDependenciesID=8a4b33640a8b6e244e27a1bcbe122340 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2541461Z
+  Time since last request: 0.0002459 seconds.
+  importAddress: GUID: 5db93e6325024c749aa2663b9998053d - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Gate_Wood_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5db93e6325024c749aa2663b9998053d - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Fence/PT_Modular_Gate_Wood_01.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5db93e6325024c749aa2663b9998053d' -> (Import Result ID: 'bbd3ff98acb3c5e7d9472cec655e0832') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61abe9f533aea2b97a5575eea7a2c69c DependenciesID=6d9a1d942a15c96ee61813bd7bbf11e0 StaticDependenciesID=83b10cc01176e4f881770e95fbb7928a 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.8792731Z
-  Time since last request: 0.0010333 seconds.
-  importAddress: GUID: 1500a5535a073af4797d5ba960824cb3 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx - Importer: PreviewImporter
-Importing 'GUID: 1500a5535a073af4797d5ba960824cb3 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx)
-Imported 'GUID: 1500a5535a073af4797d5ba960824cb3' -> (Import Result ID: '4f021a4af4ae3e9147cdb3f1a8dd1018') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1775be6264eaf4632154dae1ece7ef74 DependenciesID=caf78dd95166961a64c7bc4ff8e6a0d0 StaticDependenciesID=157df9a471e72335f5966c95d05dfb54 
+  Time of request: 2026-10-01T17:29:25.2645494Z
+  Time since last request: 0.0002609 seconds.
+  importAddress: GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 516f5b8c780f050499e83e3e45588ae9' -> (Import Result ID: '0bb248683831984fcfb4aa5a06773eb9') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72f25e8ec1e3284605424b82b1a35aa3 DependenciesID=cb55434b4b2bd1278a6fd3722888192f StaticDependenciesID=9ac6efc88aa9249458012089be782faa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 218
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2746701Z
+  Time since last request: 0.0000867 seconds.
+  importAddress: GUID: d8296f87fe19df9428b94eeb6cc479c3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d8296f87fe19df9428b94eeb6cc479c3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d8296f87fe19df9428b94eeb6cc479c3' -> (Import Result ID: '27cd6fcb8fe0e6c55e6801e1c5b5f9fd') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e862f844ea9f0e6d303eff82009517e3 DependenciesID=6380e0c4ca5c885795dea7e18f38e7e4 StaticDependenciesID=297330c875a5a9f05dda37734478631f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2819547Z
+  Time since last request: 0.0002108 seconds.
+  importAddress: GUID: f479e3fca277d3f43b3b0aaead6d1ed0 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Bridge - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f479e3fca277d3f43b3b0aaead6d1ed0 - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Bridge - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f479e3fca277d3f43b3b0aaead6d1ed0' -> (Import Result ID: 'd2a2575c6d9be12815032e2636254e3c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=593db85b7c30da5f316e3b8234bfb5c7 DependenciesID=919aa617d6803bced0bee79751d0a53d StaticDependenciesID=74de1505efb5bbd22e1bd6030e9ab143 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.2899059Z
+  Time since last request: 0.0002109 seconds.
+  importAddress: GUID: 51763bafdae3792488a76927e0169d7a - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_MouseLook.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 51763bafdae3792488a76927e0169d7a - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_MouseLook.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 51763bafdae3792488a76927e0169d7a' -> (Import Result ID: '55e30ea8f2800c806e1531583ab2e248') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2d7beb826912ec3412723cd66548b5e DependenciesID=6ab4ad93f51c5455324550badfb77e75 StaticDependenciesID=f407b4bc0ee7d2384997f77545af9152 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.3005219Z
+  Time since last request: 0.0003476 seconds.
+  importAddress: GUID: 66d0615cc71cd48408b75ff3f99c97af - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 66d0615cc71cd48408b75ff3f99c97af - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 66d0615cc71cd48408b75ff3f99c97af' -> (Import Result ID: 'b4d6ad81e5ce7cbc96dfb8dee4223683') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94653106f907d54ba8f568d00c7a2a1d DependenciesID=ce6e80c6883fb3419913bec2eb16d0c2 StaticDependenciesID=600a356ed513569a29ee4daff2b5bf50 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.31152Z
+  Time since last request: 0.0000922 seconds.
+  importAddress: GUID: 8ce8268a24bfebc4ca972ae10f12aece - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_Mat 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8ce8268a24bfebc4ca972ae10f12aece - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_Mat 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8ce8268a24bfebc4ca972ae10f12aece' -> (Import Result ID: '453046c15db82216c5a67f9a11abc306') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=884a1602beb0d345474ad51627aa682d DependenciesID=8b6469ba254ab4ec49d51953e4da51cc StaticDependenciesID=4f4854dc9b44167eae821956de3f5b50 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.3659656Z
+  Time since last request: 0.0002367 seconds.
+  importAddress: GUID: ed920bad5318ee347ad3e34dd82e273f - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_01.fbx - Importer: PreviewImporter
+Importing 'GUID: ed920bad5318ee347ad3e34dd82e273f - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_01.fbx)
+Imported 'GUID: ed920bad5318ee347ad3e34dd82e273f' -> (Import Result ID: '663ceb6b7383c90255c6c3796dd10855') in 0.313 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bc2ddd3a60892d7a4ac08c57e40d8fd DependenciesID=fd5a818f27abea73ec45b197041ed37e StaticDependenciesID=e7e4d5c51bf38620bf37e5822e6f100d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.6863176Z
+  Time since last request: 0.0000189 seconds.
+  importAddress: GUID: 2a5e649cde00dd847885c694eb77f1fb - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx - Importer: PreviewImporter
+Importing 'GUID: 2a5e649cde00dd847885c694eb77f1fb - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx)
+Imported 'GUID: 2a5e649cde00dd847885c694eb77f1fb' -> (Import Result ID: '4b1dca2071c545350c5b47c866aedc9e') in 0.071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6420ce9549a9fa38d945a3c06e0c0eed DependenciesID=c2c6746e78a41c57c72ba92e7fb0e911 StaticDependenciesID=485dd6da4a9cccda24d8cc436739961e 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:14.4958064Z
-  Time since last request: 13.5452594 seconds.
-  importAddress: GUID: 52ac57c2c14c60b4d88913beb57dce00 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer - Importer: PreviewImporter
-Importing 'GUID: 52ac57c2c14c60b4d88913beb57dce00 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 52ac57c2c14c60b4d88913beb57dce00' -> (Import Result ID: 'cf0f35fcb33fdb6b2b82f8c22039d160') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67832d7cc46eedfbfac8e10b683ce582 DependenciesID=9888450aab029ed083656d95cec29c13 StaticDependenciesID=7e782cbb63dbdbdca1916b148c0052a2 
+  Time of request: 2026-10-01T17:29:25.7646564Z
+  Time since last request: 0.0013707 seconds.
+  importAddress: GUID: c2dcabc4d03cc9b4098225e59529d20d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx - Importer: PreviewImporter
+Importing 'GUID: c2dcabc4d03cc9b4098225e59529d20d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx)
+Imported 'GUID: c2dcabc4d03cc9b4098225e59529d20d' -> (Import Result ID: '2f8b4560b47548a027169082730bac79') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a35215de860b243078496bd9e5e9008f DependenciesID=2ab4cb1192b5da15a559b8c91aed4784 StaticDependenciesID=d89ca1a5e449efbdb425aace212baae2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.8127709Z
+  Time since last request: 0.0007685 seconds.
+  importAddress: GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter
+Importing 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx)
+Imported 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d' -> (Import Result ID: '357de32b8ecf00c1d04401b55dc49bce') in 0.091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d787b1635b7eab8cae04f4aa9fa8b20a DependenciesID=bd7290fe7cc62cc14fcf8eab924692b7 StaticDependenciesID=90b34b9199794eadbfe0a08c1d1af73f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.9112085Z
+  Time since last request: 0.0008107 seconds.
+  importAddress: GUID: 20be25aac4e22ee49a7db76fb3df6de2 - Path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx - Importer: PreviewImporter
+Importing 'GUID: 20be25aac4e22ee49a7db76fb3df6de2 - Path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 20be25aac4e22ee49a7db76fb3df6de2' -> (Import Result ID: 'a3b7ef398e0969c03d81bb6ddb7af32a') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79c3806e3c337fdcbc467af0e8894322 DependenciesID=443f687b13d76fd98f79b414a992d805 StaticDependenciesID=ab0e397f448f7c94bf577bb3dad7b54f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.936391Z
+  Time since last request: 0.0007966 seconds.
+  importAddress: GUID: ddcbcdd7a43212c4d86fe33f77dac074 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx - Importer: PreviewImporter
+Importing 'GUID: ddcbcdd7a43212c4d86fe33f77dac074 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx)
+Imported 'GUID: ddcbcdd7a43212c4d86fe33f77dac074' -> (Import Result ID: 'e5f9ff8bb15da681d712296c58117e78') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c189e3c888065376bc056c82dfec787 DependenciesID=ccc9cbd0b1628dd3fb39318a18147622 StaticDependenciesID=86c04d245866562520f16458e407f82d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.9563269Z
+  Time since last request: 0.0008473 seconds.
+  importAddress: GUID: f42a2ed0c78e45643bba339ed33235d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx - Importer: PreviewImporter
+Importing 'GUID: f42a2ed0c78e45643bba339ed33235d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx)
+Imported 'GUID: f42a2ed0c78e45643bba339ed33235d4' -> (Import Result ID: 'd3d57875e459354466c49d1fb53debf7') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a9788f71b453e56c51bb121de5c9ea9 DependenciesID=5d529d03c728eb27b334406740fb910e StaticDependenciesID=0d125a5fdeddbd6c3205cd195186e153 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:25.9764417Z
+  Time since last request: 0.0006902 seconds.
+  importAddress: GUID: 0ef9f3b550a8ffd40ab0be1ae6034fe1 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx - Importer: PreviewImporter
+Importing 'GUID: 0ef9f3b550a8ffd40ab0be1ae6034fe1 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx)
+Imported 'GUID: 0ef9f3b550a8ffd40ab0be1ae6034fe1' -> (Import Result ID: '0ae418823d370faba545eb90ffc6ea16') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=877505b42d8ab6e8b93cfaa20ab30ca9 DependenciesID=de263d1b0eb677c6fa15f66b4e972510 StaticDependenciesID=ba83e1aadcf4cc9c92f6a76aadb1272d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.0227959Z
+  Time since last request: 0.0015896 seconds.
+  importAddress: GUID: cc43ed905f6a9d24a86d3eb531265e85 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx - Importer: PreviewImporter
+Importing 'GUID: cc43ed905f6a9d24a86d3eb531265e85 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx)
+Imported 'GUID: cc43ed905f6a9d24a86d3eb531265e85' -> (Import Result ID: '3d0885b8d7f71feb24af0749f8394c96') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f004af6a3abf06c3b165d1c7c9fb6e9 DependenciesID=09305a7a888cd42b3c28dcb06b60b74c StaticDependenciesID=ee9e0aafa4e919c1e2c705cc4f42efef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.0689399Z
+  Time since last request: 0.0018314 seconds.
+  importAddress: GUID: 883dcf0a9b42c1e49bc88ef484e7030a - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_Tiktok.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 883dcf0a9b42c1e49bc88ef484e7030a - Path: Assets/Polytope Studio/Welcome_Screen/Editor/Textures/icon_Tiktok.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 883dcf0a9b42c1e49bc88ef484e7030a' -> (Import Result ID: '754756b2d0367035c0664fc91e0b0563') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f37060f10b8a94773192214f154b7f40 DependenciesID=9357be7eca5fe92c338d13207ee4cd9c StaticDependenciesID=592249094ef33de24ba55aba3c45773a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.0797379Z
+  Time since last request: 0.000388 seconds.
+  importAddress: GUID: 8c71f03fcb0c13644a30696cafc5cda8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx - Importer: PreviewImporter
+Importing 'GUID: 8c71f03fcb0c13644a30696cafc5cda8 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx)
+Imported 'GUID: 8c71f03fcb0c13644a30696cafc5cda8' -> (Import Result ID: '593beb2c05378e73c1d9920fc5509f9e') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb6748b28a988934c0c5db47bb244523 DependenciesID=7b3453a340b5d8f30937779830440e4c StaticDependenciesID=a1610ee346897ae37277e2a8a1a6d1ee 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.1184085Z
+  Time since last request: 0.0010072 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '55828e196a9406e842cf4ae4830e1e18') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f88ab53be81a67cf3d220dc60829f81 DependenciesID=bbbb7979f3c7f97cb396b3a0e24b8869 StaticDependenciesID=b56d71ed7076c9455dd4dfc43a5627f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.1279263Z
+  Time since last request: 0.0004028 seconds.
+  importAddress: GUID: 4e8732d4875cc0647b52b55a218072b6 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx - Importer: PreviewImporter
+Importing 'GUID: 4e8732d4875cc0647b52b55a218072b6 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4e8732d4875cc0647b52b55a218072b6' -> (Import Result ID: 'fc289529c8f3bf8ccb865e1e8c74fc35') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d2a1a4666f7307f74800d2a455c71da DependenciesID=e05d866fd0be1c3a2755d4c009f4f673 StaticDependenciesID=572a24143d7cfa21a326f1894a578df6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.1790322Z
+  Time since last request: 0.001894 seconds.
+  importAddress: GUID: 710655db3a8505840bbf816762a7887b - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 710655db3a8505840bbf816762a7887b - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 710655db3a8505840bbf816762a7887b' -> (Import Result ID: '8b0cf0cde7c84022756e44fc52d2b76d') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92a43d581c0c73307f3d3349e8989bc2 DependenciesID=8f6ae1a30f37be6a8ac1b4c855edd30b StaticDependenciesID=e0098351a1767e7da83c35c3df7ddfad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.1880028Z
+  Time since last request: 0.0002975 seconds.
+  importAddress: GUID: ab5654911e4a8494190af9551d81ea81 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_pears.fbx - Importer: PreviewImporter
+Importing 'GUID: ab5654911e4a8494190af9551d81ea81 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_pears.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_pears.fbx)
+Imported 'GUID: ab5654911e4a8494190af9551d81ea81' -> (Import Result ID: '21b175f1927fca1ee48835daf393ef73') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85b9c9644c36801c0e1ab203b60f2f85 DependenciesID=5b16de0559a01758e9a378b853d2ecd4 StaticDependenciesID=680ce146557ca0ae3e309cc7f55490e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:26.2325251Z
+  Time since last request: 0.001955 seconds.
+  importAddress: GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx)
+Imported 'GUID: fb0559a36ae9650449b6e3c26d5076a5' -> (Import Result ID: 'c7b64b1ae14ef634b5cceb0e1ca67db9') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=848659c076d80e232a58e3986e2aeef5 DependenciesID=53c4f98496a4b70e8a644c12d2b187d3 StaticDependenciesID=2486666a1e1b437078ee4339f62b504a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:59.5723508Z
+  Time since last request: 33.3264352 seconds.
+  importAddress: GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 39144937a5efe954dac51acbbe54157e - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Decal Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39144937a5efe954dac51acbbe54157e' -> (Import Result ID: '3b4c830f6ed53419d75023dcd1fd6b2c') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcb5eb1c635765ab92637f9f0fba8903 DependenciesID=992be9232525d2fa354275b3c5273ae5 StaticDependenciesID=aa0c5b7400b243999422c6e375fb8b4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:29:59.6074561Z
+  Time since last request: 0.0000175 seconds.
+  importAddress: GUID: 80aa867ac363ac043847b06ad71604cd - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 80aa867ac363ac043847b06ad71604cd - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveMasked.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 80aa867ac363ac043847b06ad71604cd' -> (Import Result ID: '68a443303ab1bc41550ba3227500f0df') in 2.812 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cd9e02a06b1ec8f42b3769806382247 DependenciesID=d61c812a194da9714fd0a55cdf4a7ebd StaticDependenciesID=3127eef66bd629019e72f62c85dcb3f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.4288226Z
+  Time since last request: 0.0015124 seconds.
+  importAddress: GUID: fb6390f650ca44a5ba3246d8dda47927 - Path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph - Importer: PreviewImporter
+Importing 'GUID: fb6390f650ca44a5ba3246d8dda47927 - Path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fb6390f650ca44a5ba3246d8dda47927' -> (Import Result ID: 'bf31f2cc3e2c7852093e2b5190bd1ee8') in 0.201 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47025a0e1f444271b2a8fc31ab0db129 DependenciesID=b38c73656878253714152e9f99a2b291 StaticDependenciesID=c891c5af94dc4c5c4479f10025558ee4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.6397202Z
+  Time since last request: 0.0014334 seconds.
+  importAddress: GUID: 48c26796e9175d14a9b2eccded92bb92 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Terrain_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 48c26796e9175d14a9b2eccded92bb92 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Terrain_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 48c26796e9175d14a9b2eccded92bb92' -> (Import Result ID: '96ae470481e7ead79d75b7f8a21fa563') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39175824e360772bc91e460ff1e74227 DependenciesID=754d9090792e76ea8df0dcd49145dcb2 StaticDependenciesID=035c6f715f7c8eecb1083a3a9dc78ed8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.7012414Z
+  Time since last request: 0.0008878 seconds.
+  importAddress: GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: a97c105638bdf8b4a8650670310a4cd3 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a97c105638bdf8b4a8650670310a4cd3' -> (Import Result ID: '26c6735f8a7c5e0185225fec1bba4b8c') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c41a7e403ac8305c88b635818c3596db DependenciesID=378728225675db3b3fb230724912deb1 StaticDependenciesID=370a142942de7513da01291afb6ecdd4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.7178052Z
+  Time since last request: 0.0008242 seconds.
+  importAddress: GUID: 9618d41bb71f74048bb6cace8785b93d - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Unlit Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9618d41bb71f74048bb6cace8785b93d - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Unlit Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9618d41bb71f74048bb6cace8785b93d' -> (Import Result ID: 'a8d694e7bd8d07fb120328b2781b1218') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06a617998fa6317649800cf59c773487 DependenciesID=c5795a7869180542ecf9535e48019382 StaticDependenciesID=e23505759e36ead18bd0b86ddec77f22 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.7419049Z
+  Time since last request: 0.0014172 seconds.
+  importAddress: GUID: 3922c043c1c52cb47a7b1bfed562a4b6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Opaque_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 3922c043c1c52cb47a7b1bfed562a4b6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Opaque_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3922c043c1c52cb47a7b1bfed562a4b6' -> (Import Result ID: '76bf4ec598cd2e8b9a47470c21803394') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=102793abe507e7f6207636a2494bb93b DependenciesID=899e651fadbd85ab07dfb780f8431fed StaticDependenciesID=bc6c05838ed70919939e5135a8da10e8 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:14.5250082Z
-  Time since last request: 0.000017 seconds.
-  importAddress: GUID: aa8ea3d66a87ed449832e8709ec90517 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_High_Grass_02_v1.prefab - Importer: PreviewImporter
-Importing 'GUID: aa8ea3d66a87ed449832e8709ec90517 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_High_Grass_02_v1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: aa8ea3d66a87ed449832e8709ec90517' -> (Import Result ID: '6be93dcb833a31805c4e90e75692ac92') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=333785ddb42066257cf572bb8cae796f DependenciesID=bb82740a9e6ddef723ff92f0ffcd4c0c StaticDependenciesID=813a7be166a9c52c8bb1ffc665cd2af3 
+  Time of request: 2026-10-01T17:30:02.764146Z
+  Time since last request: 0.0009509 seconds.
+  importAddress: GUID: 5c81372d981403744adbdda4433c9c11 - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 5c81372d981403744adbdda4433c9c11 - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c81372d981403744adbdda4433c9c11' -> (Import Result ID: 'b53b64f941e4b7a6d19d88aea2fa4b70') in 2.369 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c794c46ba0d5881347681c5a08c2f2b2 DependenciesID=078edd4942373903033315a21700b21c StaticDependenciesID=129de9cbd6109d003b80d90a5d6a0660 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.1430455Z
+  Time since last request: 0.0015586 seconds.
+  importAddress: GUID: dfb97a9307a577a41bcacba34b9a7e32 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: dfb97a9307a577a41bcacba34b9a7e32 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dfb97a9307a577a41bcacba34b9a7e32' -> (Import Result ID: 'a36fdc25cfc50acc543aecd45595807d') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff49d515a844112110d08707745ac386 DependenciesID=313df96dca0ce3885aa01501870cda37 StaticDependenciesID=f583012bf46f2ceb6ba06b7435732e6d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.1965928Z
+  Time since last request: 0.0000363 seconds.
+  importAddress: GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf - Importer: PreviewImporter
+Importing 'GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c839255fc8f6b4b4d90bf8c1af9f9bd1' -> (Import Result ID: '9655bdc38851d201fb501432628eef46') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ed3dcb0ca5d331fc8b1151df7cb35c DependenciesID=67664f22ac2ccc048c67729d3e1f106a StaticDependenciesID=090f08ae678d5dd6e871ffb14a26b8f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.2209197Z
+  Time since last request: 0.0010104 seconds.
+  importAddress: GUID: b62637568d07eb141b948ab45ea8c3d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab - Importer: PreviewImporter
+Importing 'GUID: b62637568d07eb141b948ab45ea8c3d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b62637568d07eb141b948ab45ea8c3d4' -> (Import Result ID: '8084fd3595ff2f2f27bf4bbb22ed1153') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d350cfe9090e4693b1fa6897624cf165 DependenciesID=3bfb5910ba628c2470463a8b528d9a86 StaticDependenciesID=4bacc7ea7fb5284499e900ffe2ddaf14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.2532318Z
+  Time since last request: 0.0021737 seconds.
+  importAddress: GUID: 9b4e681081e2b4c469111bb649e2f7ee - Path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9b4e681081e2b4c469111bb649e2f7ee - Path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9b4e681081e2b4c469111bb649e2f7ee' -> (Import Result ID: '88bcbe8d217b56bcc5033955d578bc02') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86ac05476f0f073584742046fe7ceeaf DependenciesID=e22e6ec0b60431cebf3d5b04ec4f90eb StaticDependenciesID=b72ff2d60797683326445fa4b4488cc9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.2746004Z
+  Time since last request: 0.0010065 seconds.
+  importAddress: GUID: b697f6a938056384e968ccf6527dac83 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat - Importer: PreviewImporter
+Importing 'GUID: b697f6a938056384e968ccf6527dac83 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b697f6a938056384e968ccf6527dac83' -> (Import Result ID: '3ed177706a44a05178bbe12b63381f8a') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e76659c6ed065a8cb4519465f70fe5f DependenciesID=66db12778743a0231269192f2a1464af StaticDependenciesID=ab284bafad024c398134d8f768d480a7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.3120281Z
+  Time since last request: 0.001601 seconds.
+  importAddress: GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat - Importer: PreviewImporter
+Importing 'GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d' -> (Import Result ID: 'c4fe378f0e9e8f9ebce7a0b29b726b15') in 0.270 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc7e6e7cae56a2a560481367efc71f91 DependenciesID=745cbbaff5a9cc4a7cb52200ddd831bc StaticDependenciesID=dcc7293be1aeb1045384a3184f87cf23 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.5912438Z
+  Time since last request: 0.001826 seconds.
+  importAddress: GUID: bfad0aba0faa90547b68abd10bb6be86 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/2_2D Sprite Custom Lit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bfad0aba0faa90547b68abd10bb6be86 - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D/2_2D Sprite Custom Lit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bfad0aba0faa90547b68abd10bb6be86' -> (Import Result ID: '2530be3be92c35130890a65aa1d51653') in 0.187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6c8e50d0270912ebd74bfe783c07fc6 DependenciesID=fbff39238299c955b23f383f5173c327 StaticDependenciesID=660340443b854697ac4353925cd4b243 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.7868693Z
+  Time since last request: 0.0017331 seconds.
+  importAddress: GUID: 2019d78ad3d1c5c4a8d309a857ca449f - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Lit Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 2019d78ad3d1c5c4a8d309a857ca449f - Path: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn/BuiltIn Lit Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2019d78ad3d1c5c4a8d309a857ca449f' -> (Import Result ID: '1b73b0252c401efef4cacac6175999c3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac97c6fd84076c585db78f31de119cfd DependenciesID=8330a93ddf3239359d11e1a007774d79 StaticDependenciesID=2c64f40171b83f936538c245d3602eef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.8086637Z
+  Time since last request: 0.0007308 seconds.
+  importAddress: GUID: e05ae677c7b3bc546bd36b488586fb0c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab - Importer: PreviewImporter
+Importing 'GUID: e05ae677c7b3bc546bd36b488586fb0c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e05ae677c7b3bc546bd36b488586fb0c' -> (Import Result ID: 'af20a15009499fee1630d4f81149807c') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f16b2c1c6226408cdd8f84810f8f629 DependenciesID=eca4eb0001aa5f09374a2c34cf3e9bca StaticDependenciesID=bc1a0626f85f95eda78f1410235bad78 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.8382587Z
+  Time since last request: 0.0015451 seconds.
+  importAddress: GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: PreviewImporter
+Importing 'GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ef8374d642969b14baa54045236c5fb0' -> (Import Result ID: 'e2450bd7f052a813331049d6a9ca71a7') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c23427b334f0c55200af2328a58e7513 DependenciesID=1489b7a5a886fe5f0826c32ffb0c0a90 StaticDependenciesID=8b3a59899c9c0cb6c2a85b2ae4e7785b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.8676019Z
+  Time since last request: 0.002268 seconds.
+  importAddress: GUID: df41eefe8c13d444ca890dddbbc61f8d - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Fullscreen Basic URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: df41eefe8c13d444ca890dddbbc61f8d - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Fullscreen Basic URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: df41eefe8c13d444ca890dddbbc61f8d' -> (Import Result ID: '55632a4aa6d65a6ec4f3fd3221eaf286') in 0.153 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72ea03a40cfaf026eb50551bf87e76cf DependenciesID=a1e4ec1d294618b5468f5c15b45e5052 StaticDependenciesID=4e8b962170e05882968bd24036871279 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0301369Z
+  Time since last request: 0.0003668 seconds.
+  importAddress: GUID: 3ade7fcf53c8246418eb3c493d6d2178 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v2.prefab - Importer: PreviewImporter
+Importing 'GUID: 3ade7fcf53c8246418eb3c493d6d2178 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_02_v2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3ade7fcf53c8246418eb3c493d6d2178' -> (Import Result ID: '05632a777d3c765874c06d7fd5c4c93b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4ceb15fcb1719211cc005be2c474f9c DependenciesID=68f14a4345b993270e72609b7bb518ef StaticDependenciesID=603ce4b73dd4b9e1503d187d126a6753 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0525576Z
+  Time since last request: 0.0014093 seconds.
+  importAddress: GUID: a680d9a9f8b66514abbfd3ae1c8f77f7 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/2_Particle Lit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a680d9a9f8b66514abbfd3ae1c8f77f7 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/2_Particle Lit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a680d9a9f8b66514abbfd3ae1c8f77f7' -> (Import Result ID: 'e7dc6ec99fd3de8485fdf415cca30751') in 2.067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d804654c5ec1dec773973241363fa973 DependenciesID=93957709c57d359bca3e0cd0ea36a423 StaticDependenciesID=597a33db9af23aae5f2ecc1d2a58e047 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6597 unused Assets / (7.0 MB). Loaded Objects now: 7642.
+Memory consumption went from 398.3 MB to 391.3 MB.
+Total: 10.332500 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.498200 ms MarkObjects: 6.797700 ms  DeleteObjects: 2.150700 ms)
+
+Prepare: number of updated asset objects reloaded= 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1484ms
+	BeginReloadAssembly (222ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (315ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (160ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (657ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6607 unused Assets / (8.6 MB). Loaded Objects now: 7600.
+Memory consumption went from 387.1 MB to 378.5 MB.
+Total: 6.328600 ms (FindLiveObjects: 0.480000 ms CreateObjectMapping: 0.296500 ms MarkObjects: 3.571000 ms  DeleteObjects: 1.763900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (5.4 MB). Loaded Objects now: 7600.
+Memory consumption went from 383.8 MB to 378.4 MB.
+Total: 6.234400 ms (FindLiveObjects: 0.729100 ms CreateObjectMapping: 0.156100 ms MarkObjects: 3.972700 ms  DeleteObjects: 1.140300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (206ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (306ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (141ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (555ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6612 unused Assets / (18.6 MB). Loaded Objects now: 7611.
+Memory consumption went from 405.3 MB to 386.7 MB.
+Total: 8.582600 ms (FindLiveObjects: 0.736900 ms CreateObjectMapping: 0.255300 ms MarkObjects: 4.967900 ms  DeleteObjects: 2.377800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7611.
+Memory consumption went from 403.0 MB to 389.1 MB.
+Total: 5.864400 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.096600 ms MarkObjects: 4.004900 ms  DeleteObjects: 1.214200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7611.
+Memory consumption went from 404.2 MB to 390.3 MB.
+Total: 6.373300 ms (FindLiveObjects: 0.338000 ms CreateObjectMapping: 0.104400 ms MarkObjects: 4.063300 ms  DeleteObjects: 1.655500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:34:20.9511547Z
+  Time since last request: 252.82384920000001 seconds.
+  importAddress: GUID: 3ebf65d3a6489594ca09a35d85d43b0a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx - Importer: PreviewImporter
+Importing 'GUID: 3ebf65d3a6489594ca09a35d85d43b0a - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3ebf65d3a6489594ca09a35d85d43b0a' -> (Import Result ID: '673959f8bafe15f2d9410a6fab13ebf6') in 0.341 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fdf21b8cf4f9aa8d3eeae4e1c395a4f8 DependenciesID=411cfd19d3c44b147d4d0ddb718275cd StaticDependenciesID=27635cc74bc085bb04fb1daecdae7646 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.8 MB). Loaded Objects now: 7723.
+Memory consumption went from 408.0 MB to 394.1 MB.
+Total: 6.273900 ms (FindLiveObjects: 0.325800 ms CreateObjectMapping: 0.112600 ms MarkObjects: 4.317500 ms  DeleteObjects: 1.286800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:34:32.2600079Z
+  Time since last request: 10.9583516 seconds.
+  importAddress: GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter
+Importing 'GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fb0559a36ae9650449b6e3c26d5076a5' -> (Import Result ID: '978937fd99d0287328644550e91c4cfe') in 0.049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6dce0ee978d87f0a7b34b79493301c03 DependenciesID=93b08857d67f3b90f5c48048c3ef0e7b StaticDependenciesID=2f53271ece93e3458e299d028ea3dd12 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7723.
+Memory consumption went from 408.0 MB to 394.1 MB.
+Total: 6.362700 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.284500 ms MarkObjects: 4.244900 ms  DeleteObjects: 1.260900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:34:47.1563661Z
+  Time since last request: 14.8376102 seconds.
+  importAddress: GUID: ddcbcdd7a43212c4d86fe33f77dac074 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx - Importer: PreviewImporter
+Importing 'GUID: ddcbcdd7a43212c4d86fe33f77dac074 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ddcbcdd7a43212c4d86fe33f77dac074' -> (Import Result ID: '07a1723f112bc9248201a7139c678529') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4833f4bb68470ae46e9433110bfd84ac DependenciesID=946bc606e31072a6c11333388be7e64f StaticDependenciesID=13e299bc936e0d4586479bd3a36decfe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7723.
+Memory consumption went from 408.0 MB to 394.2 MB.
+Total: 6.761400 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.105100 ms MarkObjects: 4.634100 ms  DeleteObjects: 1.496900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:34:50.4024061Z
+  Time since last request: 3.210581 seconds.
+  importAddress: GUID: f222748f1796b2e49a56a2fbf7563247 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx - Importer: PreviewImporter
+Importing 'GUID: f222748f1796b2e49a56a2fbf7563247 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f222748f1796b2e49a56a2fbf7563247' -> (Import Result ID: '1d56f58a5de9c0bd548c0cac2a042959') in 0.155 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=299ca1a936ef9cebb1b977a23ed22b8a DependenciesID=fa13803a50c3878b3b89bfc5a98e924d StaticDependenciesID=b0202c6ed5b684bb1f2887440c59b857 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7723.
+Memory consumption went from 408.1 MB to 394.2 MB.
+Total: 6.542200 ms (FindLiveObjects: 0.337900 ms CreateObjectMapping: 0.098000 ms MarkObjects: 4.298900 ms  DeleteObjects: 1.592300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.8 MB). Loaded Objects now: 7723.
+Memory consumption went from 409.3 MB to 395.4 MB.
+Total: 6.634300 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.104500 ms MarkObjects: 4.670700 ms  DeleteObjects: 1.308400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7723.
+Memory consumption went from 410.5 MB to 396.6 MB.
+Total: 7.084800 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.122000 ms MarkObjects: 5.113200 ms  DeleteObjects: 1.246700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:37:00.7088641Z
+  Time since last request: 130.1433045 seconds.
+  importAddress: GUID: e0b09c625cee17a48b22b2cf949cd320 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Generic_03.png - Importer: PreviewImporter
+Importing 'GUID: e0b09c625cee17a48b22b2cf949cd320 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Ground_Generic_03.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e0b09c625cee17a48b22b2cf949cd320' -> (Import Result ID: 'd609a8276fd67f483fa125a4c1547a30') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17b7094e474354ab8f6afdcfc02692e5 DependenciesID=b633997f66bd789f92791205ca9638ba StaticDependenciesID=a9f970d805a1e4173bddb01dad96f2bd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7725.
+Memory consumption went from 408.2 MB to 394.3 MB.
+Total: 6.487400 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.218400 ms MarkObjects: 4.383600 ms  DeleteObjects: 1.297400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:37:16.3283095Z
+  Time since last request: 15.5977973 seconds.
+  importAddress: GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter
+Importing 'GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a9129ae83f8faf646961b70c4b103833' -> (Import Result ID: '7038207b5ce80e0a4534e43f590dbdd2') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2043bc18824edbd37ef01080e3be390 DependenciesID=58c972fe4abcc47abea6c653f805ff1c StaticDependenciesID=f229471fe12eed26383c897c144cfca7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.8 MB). Loaded Objects now: 7725.
+Memory consumption went from 408.2 MB to 394.4 MB.
+Total: 6.766800 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.128600 ms MarkObjects: 4.390600 ms  DeleteObjects: 1.630100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:37:23.5147294Z
+  Time since last request: 7.1259687 seconds.
+  importAddress: GUID: be10e17a73c475f41849cedee3245fd3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx - Importer: PreviewImporter
+Importing 'GUID: be10e17a73c475f41849cedee3245fd3 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be10e17a73c475f41849cedee3245fd3' -> (Import Result ID: '63d52b95ca9a73ec8882bce52cea95a5') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9138b3070c3296b80ef6fb32b74114a1 DependenciesID=da0f652ef7ff29d20b1502c13aae5c9c StaticDependenciesID=e73cb925c1487c6a523cdeed8ccd3e2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.8 MB). Loaded Objects now: 7725.
+Memory consumption went from 408.3 MB to 394.4 MB.
+Total: 6.257300 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.101400 ms MarkObjects: 4.053600 ms  DeleteObjects: 1.482400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7725.
+Memory consumption went from 409.5 MB to 395.6 MB.
+Total: 6.238300 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.087800 ms MarkObjects: 4.103600 ms  DeleteObjects: 1.493700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7725.
+Memory consumption went from 410.6 MB to 396.8 MB.
+Total: 6.224000 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.099300 ms MarkObjects: 4.147600 ms  DeleteObjects: 1.350300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:37:53.818613Z
+  Time since last request: 30.229119 seconds.
+  importAddress: GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: PreviewImporter
+Importing 'GUID: 13bd9962aed9bef41bc2dd73a559c317 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 13bd9962aed9bef41bc2dd73a559c317' -> (Import Result ID: '95928420f780c4caf5562c010bdeece8') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=279432006fcf0a52cc9cf316583511b7 DependenciesID=bdcbc0361051234f99ef9f2a8a395d60 StaticDependenciesID=8f7ea9e5f1a66aa7b2fa6866f7b77e83 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7725.
+Memory consumption went from 408.3 MB to 394.4 MB.
+Total: 6.499000 ms (FindLiveObjects: 0.317700 ms CreateObjectMapping: 0.098600 ms MarkObjects: 4.508100 ms  DeleteObjects: 1.346300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:38:02.412352Z
+  Time since last request: 8.559525 seconds.
+  importAddress: GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter
+Importing 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c7de3ea78afce6468d2ebe76dd0bf6d' -> (Import Result ID: 'c80b1aaeaf381c63332c06633767e8d8') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa7594c44fe0994b092b9196226c5624 DependenciesID=aff43eea61df7acf699181675e21a1e0 StaticDependenciesID=dc49447fea21e5a1bd9449d2bc9a6bf9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:38:11.8947812Z
+  Time since last request: 9.4395976 seconds.
+  importAddress: GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter
+Importing 'GUID: bc3def193b270c649b041063a70a1a1f - Path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/Terrain Standard 4 Layers URP.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc3def193b270c649b041063a70a1a1f' -> (Import Result ID: '3f4308d8d6aea3669a074502cee53c2d') in 1.776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9565390ad41f6282f92f4be580d07f62 DependenciesID=2b6b1b59f12babcc319b363d56b58243 StaticDependenciesID=fb831a35606becb6dbbf7e992d9efd43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:38:14.0189916Z
+  Time since last request: 0.3369526 seconds.
+  importAddress: GUID: 47c82777887e3fc46bc141849b1b3ccb - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Pine_Tree_01.png - Importer: PreviewImporter
+Importing 'GUID: 47c82777887e3fc46bc141849b1b3ccb - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Pine_Tree_01.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 47c82777887e3fc46bc141849b1b3ccb' -> (Import Result ID: '7e5798e4ab2343801309b49f7600a5c5') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f039e1ac3008eb0c06760a40d59d3e28 DependenciesID=bda5ebc77ff96d78a287b510dfef89de StaticDependenciesID=97a3cfedd4510f441eaf2279ac66548c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (13.9 MB). Loaded Objects now: 7725.
+Memory consumption went from 408.4 MB to 394.5 MB.
+Total: 7.574400 ms (FindLiveObjects: 0.479000 ms CreateObjectMapping: 0.117900 ms MarkObjects: 4.958400 ms  DeleteObjects: 1.804500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -1,0 +1,287 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili" at "2026-10-01T17:25:56.0365432Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'fi' Physical Memory: 32023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-01T17:25:56Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+31172
+-parentPid
+21032
+-analyticsCloudUserId
+5773977707800
+-analyticsCloudProjectId
+7d824529-088f-4f09-9f4c-c0d29d82a747
+-analyticsLocalProjectId
+387bd64261cf92e44b2bed5e80f963ff
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+cb9776e15f345ce24656809293ac4ff9fbc95dd9
+-cbmMachineId
+PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+-licensingIpc
+LicenseClient-Vili
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [31276]  Target information:
+
+Player connection [31276]  * "[IP] 192.168.1.217 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31276]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31276]  * "[IP] 169.254.123.238 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31276] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31276] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:          NVIDIA
+    VRAM:            15995 MB
+    App VRAM Budget: 15227 MB
+    Driver:          32.0.16.1074
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vili"
+[Licensing::IpcConnector] LicenseClient-Vili channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3" at "2026-10-01T17:25:56.8428588Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16672, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              56f32e5d1f4645838a60615a0876ee0f
+  Correlation Id:          947898cfd82374f4dad27c0b7eaf9e4d
+  External correlation Id: 8238275964702419844
+  Machine Id:              PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vili-6000.6.3" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3-notifications" at "2026-10-01T17:25:56.8495581Z"
+[Licensing::Module] Licensing Background thread has ended after 0.81s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001311 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (110ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (107ms)
+		TypeCache.Refresh (180ms)
+			TypeCache.ScanAssembly (168ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (384ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773977707800-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.594 seconds
+Domain Reload Profiling: 1358ms
+	BeginReloadAssembly (183ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (511ms)
+		LoadAssemblies (296ms)
+		TypeCache.Refresh (131ms)
+			TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (55ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (595ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.9 MB). Loaded Objects now: 7501.
+Memory consumption went from 355.8 MB to 348.9 MB.
+Total: 5.999800 ms (FindLiveObjects: 0.946000 ms CreateObjectMapping: 0.258200 ms MarkObjects: 3.465400 ms  DeleteObjects: 1.108600 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:00.2971331Z
+  Time since last request: 257420.21800689998781 seconds.
+  importAddress: GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter
+Importing 'GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx)
+Imported 'GUID: fb0559a36ae9650449b6e3c26d5076a5' -> (Import Result ID: '1b10b6899402c92811a433bad35db6a9') in 0.480 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf1fabdba9b0f8d021df46e8aa5f3780 DependenciesID=5ac883b19310298f446afcbbd4928c8d StaticDependenciesID=3df7832caad584a5bf9af6a6eaaa5cd7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:00.7871531Z
+  Time since last request: 0.0000262 seconds.
+  importAddress: GUID: 06585c4a497d08f4591a54ccfdb05bcf - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx - Importer: PreviewImporter
+Importing 'GUID: 06585c4a497d08f4591a54ccfdb05bcf - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx)
+Imported 'GUID: 06585c4a497d08f4591a54ccfdb05bcf' -> (Import Result ID: '39424d15a90d4d4398c81c9ea3043a70') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ecab9c1571f7780ac6ed72de670a3c2 DependenciesID=afc00bf337c0a92a24a211a8707d462e StaticDependenciesID=2a23a4bd0e8003e342f72cb09ef311be 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:00.8223316Z
+  Time since last request: 0.0008726 seconds.
+  importAddress: GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter
+Importing 'GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx)
+Imported 'GUID: a9129ae83f8faf646961b70c4b103833' -> (Import Result ID: '84e1628986d408197932b6784358aa59') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=534b60622e0ef6aa9ab7c0f63f717463 DependenciesID=dea9d2704389628e9aee866d16d4c2c8 StaticDependenciesID=23b864dc1c6f765dc03e155d358802be 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:14.4964648Z
+  Time since last request: 13.6010888 seconds.
+  importAddress: GUID: f7ce30ec9b280b34cacb1a1005349890 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_02.terrainlayer - Importer: PreviewImporter
+Importing 'GUID: f7ce30ec9b280b34cacb1a1005349890 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_02.terrainlayer - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f7ce30ec9b280b34cacb1a1005349890' -> (Import Result ID: '1bba970ea39f5147bf4e5ec1c1af5f88') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6d648849f2886f9379ff9e0c78e8202 DependenciesID=3497566f8b2cb707ca387cdcebdf045c StaticDependenciesID=4f336ebaa80847b331b9085ff567f109 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:14.5249997Z
+  Time since last request: 0.0000207 seconds.
+  importAddress: GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: PreviewImporter
+Importing 'GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7917e70f5baa68944aad80732cb08b3d' -> (Import Result ID: 'c877f8c1fdb4050f7123e296f49dd43e') in 0.063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb7ea24e6b87ccb0d29b554aa6e835a6 DependenciesID=07c70e555063b713826441b0a9a677c6 StaticDependenciesID=d69250f323c8eea9d0a819df40faf17b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

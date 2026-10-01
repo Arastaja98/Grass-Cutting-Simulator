@@ -1,11 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili" at "2026-10-01T17:25:56.0365432Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'fi' Physical Memory: 32023 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA" at "2026-10-01T17:29:24.52868Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32451 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-01T17:25:56Z
+Date: 2026-10-01T17:29:24Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17596, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9713a24d32ea4ca49156bc9ec5b265eb
+  Correlation Id:          d115a782ca8968c2ff33704db9d6d565
+  External correlation Id: 5035383352354629703
+  Machine Id:              FsxY2Qad/u72lkyk2UQIeosbrXw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ARA" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA-notifications" at "2026-10-01T17:29:24.5562581Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
@@ -15,15 +26,15 @@ C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
 -name
 AssetImportWorkerHW3
 -projectPath
-C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 -logFile
 Logs/AssetImportWorkerHW3.log
 -srvPort
-31172
+54356
 -parentPid
-21032
+40628
 -analyticsCloudUserId
-5773977707800
+5774129977459
 -analyticsCloudProjectId
 7d824529-088f-4f09-9f4c-c0d29d82a747
 -analyticsLocalProjectId
@@ -31,14 +42,14 @@ Logs/AssetImportWorkerHW3.log
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-cb9776e15f345ce24656809293ac4ff9fbc95dd9
+dc8ef1aa223a41a0a2db34631f8bf1d604cf272a
 -cbmMachineId
-PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+FsxY2Qad/u72lkyk2UQIeosbrXw=
 -licensingIpc
-LicenseClient-Vili
+LicenseClient-ARA
 -noDiagnosticSwitchPersistentStore
 -job-worker-count
-9
+13
 -background-job-worker-count
 8
 -asset-garbage-collectors
@@ -46,8 +57,8 @@ LicenseClient-Vili
 -force-d3d12
 -name
 AssetImport
-Successfully changed project path to: C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
-C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+Successfully changed project path to: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -85,31 +96,27 @@ C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [31276]  Target information:
+Player connection [14496]  Target information:
 
-Player connection [31276]  * "[IP] 192.168.1.217 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14496]  * "[IP] 192.168.100.24 [Port] 0 [Flags] 2 [Guid] 3398529614 [EditorId] 3398529614 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FH60KNT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31276]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [31276]  * "[IP] 169.254.123.238 [Port] 0 [Flags] 2 [Guid] 1955539404 [EditorId] 1955539404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [31276] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31276] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [14496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Resource namespace: cc13ed0f4855ae4f5477f0ef9e7797cf
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: true
   - Service working directory: Library/DataStore/
-Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -119,72 +126,57 @@ Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
 Initialize engine version: 6000.6.3f1 (45d8eee7de74)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
 Forcing GfxDevice: Direct3D 12
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
     Version:         Direct3D 12 [level 12.2]
-    Renderer:        NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Renderer:        NVIDIA GeForce RTX 4070 (ID=0x2786)
     Vendor:          NVIDIA
-    VRAM:            15995 MB
-    App VRAM Budget: 15227 MB
-    Driver:          32.0.16.1074
+    VRAM:            12010 MB
+    App VRAM Budget: 11242 MB
+    Driver:          32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.3'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vili"
-[Licensing::IpcConnector] LicenseClient-Vili channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3" at "2026-10-01T17:25:56.8428588Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16672, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              56f32e5d1f4645838a60615a0876ee0f
-  Correlation Id:          947898cfd82374f4dad27c0b7eaf9e4d
-  External correlation Id: 8238275964702419844
-  Machine Id:              PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vili-6000.6.3" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3-notifications" at "2026-10-01T17:25:56.8495581Z"
-[Licensing::Module] Licensing Background thread has ended after 0.81s
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001311 seconds.
+Registered in 0.001950 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.383 seconds
-Domain Reload Profiling: 833ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (101ms)
 	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (266ms)
-		LoadAssemblies (107ms)
-		TypeCache.Refresh (180ms)
-			TypeCache.ScanAssembly (168ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (98ms)
+		TypeCache.Refresh (182ms)
+			TypeCache.ScanAssembly (170ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (384ms)
+	FinalizeReload (438ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (78ms)
-			ProcessInitializeOnLoadMethodAttributes (139ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (166ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-  Id: 5773977707800-UnityPersXXXX
+  Id: 5774129977459-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
@@ -195,6 +187,7 @@ Begin MonoManager ReloadAssembly
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -203,83 +196,333 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.594 seconds
-Domain Reload Profiling: 1358ms
-	BeginReloadAssembly (183ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (25ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (159ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (13ms)
+	RebuildNativeTypeToScriptingClass (14ms)
 	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (511ms)
-		LoadAssemblies (296ms)
-		TypeCache.Refresh (131ms)
-			TypeCache.ScanAssembly (118ms)
-		AnalyzeDomain (55ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (595ms)
+	LoadAllAssembliesAndSetupDomain (470ms)
+		LoadAssemblies (257ms)
+		TypeCache.Refresh (123ms)
+			TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (58ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (546ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (5ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6578 unused Assets / (6.9 MB). Loaded Objects now: 7501.
-Memory consumption went from 355.8 MB to 348.9 MB.
-Total: 5.999800 ms (FindLiveObjects: 0.946000 ms CreateObjectMapping: 0.258200 ms MarkObjects: 3.465400 ms  DeleteObjects: 1.108600 ms)
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6614 unused Assets / (10.8 MB). Loaded Objects now: 7467.
+Memory consumption went from 353.8 MB to 343.0 MB.
+Total: 7.746100 ms (FindLiveObjects: 0.617600 ms CreateObjectMapping: 0.914000 ms MarkObjects: 4.094400 ms  DeleteObjects: 1.918600 ms)
 
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.2971331Z
-  Time since last request: 257420.21800689998781 seconds.
-  importAddress: GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter
-Importing 'GUID: fb0559a36ae9650449b6e3c26d5076a5 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx)
-Imported 'GUID: fb0559a36ae9650449b6e3c26d5076a5' -> (Import Result ID: '1b10b6899402c92811a433bad35db6a9') in 0.480 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf1fabdba9b0f8d021df46e8aa5f3780 DependenciesID=5ac883b19310298f446afcbbd4928c8d StaticDependenciesID=3df7832caad584a5bf9af6a6eaaa5cd7 
+  Time of request: 2026-10-01T17:29:59.5724851Z
+  Time since last request: 608003.19402980001178 seconds.
+  importAddress: GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter
+Importing 'GUID: a2407126e3372f64cacb75ed466a5621 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/0_Lit Basic.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2407126e3372f64cacb75ed466a5621' -> (Import Result ID: '5cf035d3644a0806769e00013a8c23df') in 3.112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb53b2ba03a7f0936672ef65f6855a7e DependenciesID=30e6dad3f09d7a22589dd7ac7eb4c271 StaticDependenciesID=a4d688839a4ccd5d9c6aeb26b03c31de 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.7871531Z
-  Time since last request: 0.0000262 seconds.
-  importAddress: GUID: 06585c4a497d08f4591a54ccfdb05bcf - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx - Importer: PreviewImporter
-Importing 'GUID: 06585c4a497d08f4591a54ccfdb05bcf - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx)
-Imported 'GUID: 06585c4a497d08f4591a54ccfdb05bcf' -> (Import Result ID: '39424d15a90d4d4398c81c9ea3043a70') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ecab9c1571f7780ac6ed72de670a3c2 DependenciesID=afc00bf337c0a92a24a211a8707d462e StaticDependenciesID=2a23a4bd0e8003e342f72cb09ef311be 
+  Time of request: 2026-10-01T17:30:02.6969091Z
+  Time since last request: 0.0000366 seconds.
+  importAddress: GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 15d0c3709176029428a0da2f8cecf0b5 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15d0c3709176029428a0da2f8cecf0b5' -> (Import Result ID: 'b2832aa7431487d801f82d7322d77470') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=237fd6c931d9f961c02212f7c7cd7ec0 DependenciesID=b935b29d2ef8410e5bb211d3b0166248 StaticDependenciesID=7182571488c543bf424664751821f487 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:00.8223316Z
-  Time since last request: 0.0008726 seconds.
-  importAddress: GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter
-Importing 'GUID: a9129ae83f8faf646961b70c4b103833 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
-MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx)
-Imported 'GUID: a9129ae83f8faf646961b70c4b103833' -> (Import Result ID: '84e1628986d408197932b6784358aa59') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=534b60622e0ef6aa9ab7c0f63f717463 DependenciesID=dea9d2704389628e9aee866d16d4c2c8 StaticDependenciesID=23b864dc1c6f765dc03e155d358802be 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time of request: 2026-10-01T17:26:14.4964648Z
-  Time since last request: 13.6010888 seconds.
-  importAddress: GUID: f7ce30ec9b280b34cacb1a1005349890 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_02.terrainlayer - Importer: PreviewImporter
-Importing 'GUID: f7ce30ec9b280b34cacb1a1005349890 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_02.terrainlayer - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: f7ce30ec9b280b34cacb1a1005349890' -> (Import Result ID: '1bba970ea39f5147bf4e5ec1c1af5f88') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6d648849f2886f9379ff9e0c78e8202 DependenciesID=3497566f8b2cb707ca387cdcebdf045c StaticDependenciesID=4f336ebaa80847b331b9085ff567f109 
+  Time of request: 2026-10-01T17:30:02.7430334Z
+  Time since last request: 0.0026186 seconds.
+  importAddress: GUID: 761d8e1f988ed2345a28312145c79c6e - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Ground.mat - Importer: PreviewImporter
+Importing 'GUID: 761d8e1f988ed2345a28312145c79c6e - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Ground.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 761d8e1f988ed2345a28312145c79c6e' -> (Import Result ID: 'a20a6e00172a56562a7f15e5ae409b97') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69aa0165fce5a3c0b56da7ad402bc4a1 DependenciesID=a490044d9d329b5bec1a3dcd7a2a02f3 StaticDependenciesID=15e3d53ff1cb634309a09ed50183aa58 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time of request: 2026-10-01T17:26:14.5249997Z
-  Time since last request: 0.0000207 seconds.
-  importAddress: GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: PreviewImporter
-Importing 'GUID: 7917e70f5baa68944aad80732cb08b3d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Poppy_02_v1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 7917e70f5baa68944aad80732cb08b3d' -> (Import Result ID: 'c877f8c1fdb4050f7123e296f49dd43e') in 0.063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb7ea24e6b87ccb0d29b554aa6e835a6 DependenciesID=07c70e555063b713826441b0a9a677c6 StaticDependenciesID=d69250f323c8eea9d0a819df40faf17b 
+  Time of request: 2026-10-01T17:30:02.7691838Z
+  Time since last request: 0.0007146 seconds.
+  importAddress: GUID: 67c85a5a0248e2a4a98e653c8e7eeb9e - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Poppy_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 67c85a5a0248e2a4a98e653c8e7eeb9e - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Poppy_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 67c85a5a0248e2a4a98e653c8e7eeb9e' -> (Import Result ID: 'dbabc46e51e11d18c72c0cf1c31234c8') in 0.089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76afd33fd5938cc19776b7b37745bc8a DependenciesID=041aec37844b6f6d9b7cad4b79afee74 StaticDependenciesID=e448ca4d75faad63fe57e14e3089da17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:02.8665617Z
+  Time since last request: 0.0006373 seconds.
+  importAddress: GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter
+Importing 'GUID: 78a08787ca30045abb69f6f7dd878e09 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 78a08787ca30045abb69f6f7dd878e09' -> (Import Result ID: '0781766ba4d9c067794ad52fb7699bb9') in 0.136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f02a4aa41dad1a8082cd53b0ef7aa323 DependenciesID=1d763fc4fb5d42119dfdc50958d119fa StaticDependenciesID=0e64bb070480ee223f646431f86b3bd8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.0106077Z
+  Time since last request: 0.0006772 seconds.
+  importAddress: GUID: 59573b088aaea0442bf29e0a0e9d1339 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Skybox_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 59573b088aaea0442bf29e0a0e9d1339 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Skybox_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 59573b088aaea0442bf29e0a0e9d1339' -> (Import Result ID: 'c3421e2af2e52945268261b5eb854f6c') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd88781f7c3b15a2647000b33c3a1f67 DependenciesID=31927f199b1c6100b4562afd567f865d StaticDependenciesID=dc41f2e6e2e8e70f15a5270bdc4784af 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.0709709Z
+  Time since last request: 0.0011326 seconds.
+  importAddress: GUID: d93c1bc57fdf1ac4dad1bf04fac05464 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: d93c1bc57fdf1ac4dad1bf04fac05464 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d93c1bc57fdf1ac4dad1bf04fac05464' -> (Import Result ID: '9e65ed95421833c362efdb26133fa614') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c6de804a201ced002e7bf79857df2ee DependenciesID=8714229a956005961d732f806a504661 StaticDependenciesID=e9ed584c0ff414a5e57f0788e0ea363b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.1032054Z
+  Time since last request: 0.0000274 seconds.
+  importAddress: GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5e63515167650a541b309ba3bfd4db3d' -> (Import Result ID: '7090b849eba29828e39842392af4f8de') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e745d8cab27588fefc3c0ee7e742f76d DependenciesID=7fdfd1bdb8425647539a18c2f0095695 StaticDependenciesID=8294b5eb61b0ffac6ea54aa137e2f66b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.1221136Z
+  Time since last request: 0.0007489 seconds.
+  importAddress: GUID: 8a239b3da89050c4e89ac06b168fc684 - Path: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FallbackMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 8a239b3da89050c4e89ac06b168fc684 - Path: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature/FallbackMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8a239b3da89050c4e89ac06b168fc684' -> (Import Result ID: '33f9fb0f7a8080255bc16719a8d0eba1') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5480ae8dd386aea7ec8140c5afc4399 DependenciesID=0faeeb1005a0f990ab6726bd0779ce04 StaticDependenciesID=7c966a099b15e8bbd0dc37d9bc857921 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.1397562Z
+  Time since last request: 0.0011539 seconds.
+  importAddress: GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter
+Importing 'GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1062c701058745940ae5dca6219c64c8' -> (Import Result ID: '95bc142cb6a612630c674ee3c6d55763') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1515b54376c65ee4a1762e5d28481488 DependenciesID=c02608cd6d41cb3689819f403e02f42a StaticDependenciesID=68b0f04624659bddfceba6e022230ee4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:03.1630747Z
+  Time since last request: 0.0007055 seconds.
+  importAddress: GUID: 1a207e3bee00db44b940e6f362a8e148 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 1a207e3bee00db44b940e6f362a8e148 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1a207e3bee00db44b940e6f362a8e148' -> (Import Result ID: 'a6d64a63ccad450db7e07c9856246787') in 2.462 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7a6cd911548ae5d5129685f3c0eaf5c DependenciesID=33e1de1b575409b855101bb7e9d0b740 StaticDependenciesID=d0a15f9c6e9ab69bb3e368122b6011c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.6395388Z
+  Time since last request: 0.0015736 seconds.
+  importAddress: GUID: 56532089e45dbc1479865e115cc8c637 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 56532089e45dbc1479865e115cc8c637 - Path: Assets/Polytope Studio/Lowpoly_Village/Sources/Materials/PT_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 56532089e45dbc1479865e115cc8c637' -> (Import Result ID: '96a434cdb3e2ad0515c5d94c1981334c') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b427db10286b0c083a456b921fe031c DependenciesID=11668d248297e5c5d0642a76fdd107b6 StaticDependenciesID=67a9b38dee120c5b716619c55be350bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.6612831Z
+  Time since last request: 0.0013898 seconds.
+  importAddress: GUID: c522ec7c62be0c145bc320ad11705a67 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Mushrooms_mat.mat - Importer: PreviewImporter
+Importing 'GUID: c522ec7c62be0c145bc320ad11705a67 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Mushrooms_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c522ec7c62be0c145bc320ad11705a67' -> (Import Result ID: '8ada2342ffee9bb2150d48a296309aa0') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc769dfa0f0327875d5d45b91ee27d9e DependenciesID=8678c68c972340735dd5449f444858b0 StaticDependenciesID=2ea6fcd2e18e53ac00e93a301ba644fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.6854208Z
+  Time since last request: 0.000706 seconds.
+  importAddress: GUID: 9dfc825aed78fcd4ba02077103263b40 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 9dfc825aed78fcd4ba02077103263b40 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9dfc825aed78fcd4ba02077103263b40' -> (Import Result ID: '8feb7d1e7ca3798ec9ecd69a97344539') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3209f31167cd27f2e47bdefc3a6bd50 DependenciesID=3d3bd847dd159590ea076252065e1f96 StaticDependenciesID=452f62c3b89722e6b2be24ece52e8490 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.7289899Z
+  Time since last request: 0.0015683 seconds.
+  importAddress: GUID: 31321ba15b8f8eb4c954353edc038b1d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat - Importer: PreviewImporter
+Importing 'GUID: 31321ba15b8f8eb4c954353edc038b1d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31321ba15b8f8eb4c954353edc038b1d' -> (Import Result ID: 'c6ac845fece79dd74237895d135fe154') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c95562a5e4dcf91366e97e1a3bc27ab DependenciesID=c07239a0011f4973040aee2edfc558ca StaticDependenciesID=6f1278153ca11bbe5f955f323564fd62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.7471779Z
+  Time since last request: 0.0009631 seconds.
+  importAddress: GUID: f95147a9bab9fe649b8070170fa7ebd2 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: f95147a9bab9fe649b8070170fa7ebd2 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f95147a9bab9fe649b8070170fa7ebd2' -> (Import Result ID: '2bec0893369266064c6aa3a37c62525d') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcf4615c4dca2223b4698228046c448a DependenciesID=99f3836044e7ab188840acc3b6fcc878 StaticDependenciesID=5a93b7bf50cf8c5f7a555543c973a8f1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.7704465Z
+  Time since last request: 0.0008135 seconds.
+  importAddress: GUID: 8ce8268a24bfebc4ca972ae10f12aece - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_Mat 1.mat - Importer: PreviewImporter
+Importing 'GUID: 8ce8268a24bfebc4ca972ae10f12aece - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Grass_Mat 1.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ce8268a24bfebc4ca972ae10f12aece' -> (Import Result ID: '3a93614aac0839499f3aba5fee244658') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=999519b186731aff897d03ac8db27026 DependenciesID=c446985c2ca9a6e78dc51db424189486 StaticDependenciesID=e357acf05c148eadd0e68f80a19981e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.8440586Z
+  Time since last request: 0.0011688 seconds.
+  importAddress: GUID: 3dd97330b2ebd884e9f796894e026064 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 3dd97330b2ebd884e9f796894e026064 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3dd97330b2ebd884e9f796894e026064' -> (Import Result ID: '1e5944858cf38586682fc56b6c1662fe') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=263e653ed326a570829cb5e7b1c7319f DependenciesID=aae7ac9a184774177de8ac1be0787973 StaticDependenciesID=b4ec6acdc4f1bea10b63a1403fed9f60 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.9106446Z
+  Time since last request: 0.0012777 seconds.
+  importAddress: GUID: 46f8d17b9eeef754ebc1008196f84bdd - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Bridge/PT_Wooden_Bridge_02.prefab - Importer: PreviewImporter
+Importing 'GUID: 46f8d17b9eeef754ebc1008196f84bdd - Path: Assets/Polytope Studio/Lowpoly_Village/Prefabs/Modular/Bridge/PT_Wooden_Bridge_02.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 46f8d17b9eeef754ebc1008196f84bdd' -> (Import Result ID: '5634939af28f8f95073624e36dc548ba') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=734bd1488ecf342f42343343dabe199c DependenciesID=33408543663a4232f82a175e2b08701f StaticDependenciesID=ec94db47595e43170b90548150da5724 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.9399901Z
+  Time since last request: 0.0023453 seconds.
+  importAddress: GUID: 244ce2af788c0c346b86cbc0473811b0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab - Importer: PreviewImporter
+Importing 'GUID: 244ce2af788c0c346b86cbc0473811b0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 244ce2af788c0c346b86cbc0473811b0' -> (Import Result ID: '0122eab7d10371525173a1d8beaef702') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=207c8119ba9cd35aeb417085925f4f42 DependenciesID=fdc90fbe9d6424b7b1a0e2b2af1af846 StaticDependenciesID=fa834d1df8d243be1ddbd4a0db638f42 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.9652616Z
+  Time since last request: 0.0015671 seconds.
+  importAddress: GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter
+Importing 'GUID: 3750c318f40cab44a97d3a81beaefeb3 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3750c318f40cab44a97d3a81beaefeb3' -> (Import Result ID: 'aac05946a9dbadc588b891242c89e622') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8232347dee368e154f2780316ac4d4f DependenciesID=ec6f83a1ef0ca2da530015b7643b5d09 StaticDependenciesID=934e95a99595af714149e87c57fd9b5c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:05.9886711Z
+  Time since last request: 0.0009744 seconds.
+  importAddress: GUID: 4202bcf0261b7184381139880446dfd6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab - Importer: PreviewImporter
+Importing 'GUID: 4202bcf0261b7184381139880446dfd6 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01_split.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4202bcf0261b7184381139880446dfd6' -> (Import Result ID: '459ab1e5bb8d5082b5d5eb2c5e540c75') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98fb4f14d88673bef50c1644d2166741 DependenciesID=b8f6ffdd40701b9dbe36997adeccedef StaticDependenciesID=950398abbaae15f77e533a3a6e82b2ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0188059Z
+  Time since last request: 0.0028455 seconds.
+  importAddress: GUID: 6cdd667aa0034cd4dadc8d58a65fb098 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab - Importer: PreviewImporter
+Importing 'GUID: 6cdd667aa0034cd4dadc8d58a65fb098 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6cdd667aa0034cd4dadc8d58a65fb098' -> (Import Result ID: 'db4aedf98c7bed3489bb5030d969f5c2') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b4546af008bd9d05cd1da1d088c37ad DependenciesID=0a31ce9fd02bf225b123993f80915891 StaticDependenciesID=ff4f5842860d7cba4e50d115ff61184a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0438689Z
+  Time since last request: 0.0021752 seconds.
+  importAddress: GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce' -> (Import Result ID: 'f14f7d8c3fe891b9ab093256ecd0978d') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22cac67e4b13489eb351f59da76a1027 DependenciesID=dc1a58e0bb9c044cea1d63d495f812a4 StaticDependenciesID=0f9c2336df4e946e1e9e288063b8ecd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0709205Z
+  Time since last request: 0.000685 seconds.
+  importAddress: GUID: 1716ff8c1e51af14280cc97fbcba3b11 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Decal Material Volume.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 1716ff8c1e51af14280cc97fbcba3b11 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Decal Material Volume.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1716ff8c1e51af14280cc97fbcba3b11' -> (Import Result ID: 'b02ca78b813df6ac897442cb30d40167') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b90496dae7f04c9ca76df74a5a230243 DependenciesID=cadc4fe318066428f3b5862994fbd455 StaticDependenciesID=9840a7281e1f1927fb2fb59020a497c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:06.0908072Z
+  Time since last request: 0.0012133 seconds.
+  importAddress: GUID: 19a9abb883540be48b75b951a927ae03 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf - Importer: PreviewImporter
+Importing 'GUID: 19a9abb883540be48b75b951a927ae03 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 19a9abb883540be48b75b951a927ae03' -> (Import Result ID: 'dcb481eff819ee131e74830a95ae79d0') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67c13dff978f719d6311d2b56331b051 DependenciesID=cd70813ba950a4d5a47e2b51197855d1 StaticDependenciesID=0c7ef059df2284b2da5c874272872e72 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6598 unused Assets / (7.2 MB). Loaded Objects now: 7626.
+Memory consumption went from 383.3 MB to 376.0 MB.
+Total: 9.493000 ms (FindLiveObjects: 0.945000 ms CreateObjectMapping: 0.437900 ms MarkObjects: 5.693300 ms  DeleteObjects: 2.161400 ms)
+
+Prepare: number of updated asset objects reloaded= 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.620 seconds
+Domain Reload Profiling: 1428ms
+	BeginReloadAssembly (228ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (302ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (144ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (621ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6608 unused Assets / (9.0 MB). Loaded Objects now: 7581.
+Memory consumption went from 374.2 MB to 365.2 MB.
+Total: 7.594700 ms (FindLiveObjects: 0.829400 ms CreateObjectMapping: 0.428600 ms MarkObjects: 4.165800 ms  DeleteObjects: 1.953500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (5.4 MB). Loaded Objects now: 7581.
+Memory consumption went from 370.7 MB to 365.3 MB.
+Total: 6.944000 ms (FindLiveObjects: 0.540300 ms CreateObjectMapping: 0.140300 ms MarkObjects: 4.872000 ms  DeleteObjects: 1.177900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server

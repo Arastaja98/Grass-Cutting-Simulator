@@ -1,0 +1,513 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA" at "2026-10-01T17:29:59.6709129Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32451 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-01T17:29:59Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17596, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              715c660d9e734ad5a64755f90962df66
+  Correlation Id:          d115a782ca8968c2ff33704db9d6d565
+  External correlation Id: 2599403827103550981
+  Machine Id:              FsxY2Qad/u72lkyk2UQIeosbrXw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ARA" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA-notifications" at "2026-10-01T17:29:59.6977743Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW6
+-projectPath
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+-logFile
+Logs/AssetImportWorkerHW6.log
+-srvPort
+54356
+-parentPid
+40628
+-analyticsCloudUserId
+5774129977459
+-analyticsCloudProjectId
+7d824529-088f-4f09-9f4c-c0d29d82a747
+-analyticsLocalProjectId
+387bd64261cf92e44b2bed5e80f963ff
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+dc8ef1aa223a41a0a2db34631f8bf1d604cf272a
+-cbmMachineId
+FsxY2Qad/u72lkyk2UQIeosbrXw=
+-licensingIpc
+LicenseClient-ARA
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+13
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18804]  Target information:
+
+Player connection [18804]  * "[IP] 192.168.100.24 [Port] 0 [Flags] 2 [Guid] 2424072585 [EditorId] 2424072585 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FH60KNT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18804] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18804] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: cc13ed0f4855ae4f5477f0ef9e7797cf
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:          NVIDIA
+    VRAM:            12010 MB
+    App VRAM Budget: 11242 MB
+    Driver:          32.0.16.1088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001975 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 970ms
+	BeginReloadAssembly (118ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (115ms)
+		TypeCache.Refresh (221ms)
+			TypeCache.ScanAssembly (205ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (451ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774129977459-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1780ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (697ms)
+		LoadAssemblies (408ms)
+		TypeCache.Refresh (175ms)
+			TypeCache.ScanAssembly (158ms)
+		AnalyzeDomain (83ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (746ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6614 unused Assets / (11.2 MB). Loaded Objects now: 7467.
+Memory consumption went from 354.2 MB to 343.0 MB.
+Total: 9.633200 ms (FindLiveObjects: 1.603300 ms CreateObjectMapping: 0.480300 ms MarkObjects: 4.437300 ms  DeleteObjects: 2.879900 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.1549919Z
+  Time since last request: 608007.77653689996805 seconds.
+  importAddress: GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: PreviewImporter
+Importing 'GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 516f5b8c780f050499e83e3e45588ae9' -> (Import Result ID: '450f792a5b326f21f42fab21de90cc87') in 0.395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=512f5df37cf8a42ca586a4bf580040e3 DependenciesID=b6f54c44222bc3c2d85e88b3592f141c StaticDependenciesID=1819b5f7ffc571846e777b7a182d25f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.5597244Z
+  Time since last request: 0.0000333 seconds.
+  importAddress: GUID: c8b350551fbedc84c8025d7d29f3a018 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab - Importer: PreviewImporter
+Importing 'GUID: c8b350551fbedc84c8025d7d29f3a018 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c8b350551fbedc84c8025d7d29f3a018' -> (Import Result ID: '1d68568bf64bed244855e8476deccf34') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=623ddf3dd28632bee7d90007b01171fe DependenciesID=0d8c64de9158de2a79550b2fb51ee4a4 StaticDependenciesID=eb30221dfd7a614c30dbfbfcf5c801db 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.5839889Z
+  Time since last request: 0.0009622 seconds.
+  importAddress: GUID: 93415edde47040648869ae6638d33ced - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Rocks_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 93415edde47040648869ae6638d33ced - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Rocks_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 93415edde47040648869ae6638d33ced' -> (Import Result ID: 'f4b85cab18d8793fa81bc2ee59cc766e') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78e2b286414afdc1e1a8060bab1eac24 DependenciesID=5f640190ad6a836d7b17aad872c6b3a1 StaticDependenciesID=53612fc166692a20fa86e30ff61b71e3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.6296562Z
+  Time since last request: 0.0000298 seconds.
+  importAddress: GUID: 3e36df56c6fa5f64085c14d9d4f6f8d9 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 3e36df56c6fa5f64085c14d9d4f6f8d9 - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Use of GfxDeviceD3D12::GrabIntoRenderTexture is forbidden during a render pass!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:1071)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:875)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:850)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:643)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs line 1071]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_ST (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:1071)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:875)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:850)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:643)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs line 1071]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_TexelSize (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:1071)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:875)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:850)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:643)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs line 1071]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture_HDR (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:1071)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:875)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:850)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:643)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs line 1071]
+
+Shader properties can't be added to this global property sheet. Trying to add _GrabTexture (type 4 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:1071)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:875)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:850)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs:643)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@327d93d1cbc8/Runtime/UniversalRenderPipeline.cs line 1071]
+
+Imported 'GUID: 3e36df56c6fa5f64085c14d9d4f6f8d9' -> (Import Result ID: 'cefb62d1da251a3f2c3803646d5f7660') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8c0778b5bce2d8293ee7501b1f3fbe7 DependenciesID=4509e3bb834b556b8f40e45f5d5a18b1 StaticDependenciesID=9dce4bc35df9ec3e71ae060b11616301 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.6790787Z
+  Time since last request: 0.0012829 seconds.
+  importAddress: GUID: c0fdfdeafe3a1404a8766f946dd531d0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab - Importer: PreviewImporter
+Importing 'GUID: c0fdfdeafe3a1404a8766f946dd531d0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c0fdfdeafe3a1404a8766f946dd531d0' -> (Import Result ID: 'c9aa0d2aa89392aeb762c619ae59acd4') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=809ebaa827b5c85d878167b3eb35fe66 DependenciesID=8991c9b4fa7e161a05b2bdf791f7fe29 StaticDependenciesID=b0a49f4f427e2906a9704ec8c868fe82 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.7094439Z
+  Time since last request: 0.0007639 seconds.
+  importAddress: GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 58cd8dc8c2359174baa15aa31e302c8b' -> (Import Result ID: '4081266a449a10a4679c928e8ff5eb0e') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24b6110156586b67a6a8650b54d74dbe DependenciesID=fa825b2331f1884a46ccc03b77d934c3 StaticDependenciesID=8027bbf0e7695344a51c07755261e917 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.7380173Z
+  Time since last request: 0.0014813 seconds.
+  importAddress: GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter
+Importing 'GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9875a245ac49007498213638a307faa1' -> (Import Result ID: 'caffb286656d9506273974734df560ae') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e45b240e5cb653da1b252fefbeede348 DependenciesID=614a582d7cc6efd9c8873173dd78a4a1 StaticDependenciesID=204cb88cea15515c0571381da2616947 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:30:04.7963378Z
+  Time since last request: 0.0013914 seconds.
+  importAddress: GUID: aee84ce0dab81b049bb88017d78a63cd - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Lit Full.shadergraph - Importer: PreviewImporter
+Importing 'GUID: aee84ce0dab81b049bb88017d78a63cd - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/1_Lit Full.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: aee84ce0dab81b049bb88017d78a63cd' -> (Import Result ID: '500379b7d1371a7fa257c6c95de123a0') in 2.679 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f93ea9ad12f4285c2fd818f6a1b6ea05 DependenciesID=ddbf12638bdd3ea91d562079e5e92d8e StaticDependenciesID=8b0ef3d4dc5b6e2a855cd605422b7e1a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6597 unused Assets / (7.6 MB). Loaded Objects now: 7624.
+Memory consumption went from 384.1 MB to 376.4 MB.
+Total: 8.738600 ms (FindLiveObjects: 0.938600 ms CreateObjectMapping: 0.399000 ms MarkObjects: 5.104000 ms  DeleteObjects: 2.053900 ms)
+
+Prepare: number of updated asset objects reloaded= 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1432ms
+	BeginReloadAssembly (219ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (310ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (145ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (617ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6607 unused Assets / (8.4 MB). Loaded Objects now: 7577.
+Memory consumption went from 374.2 MB to 365.8 MB.
+Total: 9.184600 ms (FindLiveObjects: 1.225300 ms CreateObjectMapping: 0.253400 ms MarkObjects: 5.112000 ms  DeleteObjects: 2.306100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 58 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (5.5 MB). Loaded Objects now: 7577.
+Memory consumption went from 370.7 MB to 365.3 MB.
+Total: 6.923700 ms (FindLiveObjects: 1.055400 ms CreateObjectMapping: 0.201700 ms MarkObjects: 4.186900 ms  DeleteObjects: 1.222600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.559 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (208ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (313ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (141ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (559ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6616 unused Assets / (16.1 MB). Loaded Objects now: 7584.
+Memory consumption went from 392.1 MB to 376.0 MB.
+Total: 9.313100 ms (FindLiveObjects: 0.592200 ms CreateObjectMapping: 0.326900 ms MarkObjects: 5.011600 ms  DeleteObjects: 3.104600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
