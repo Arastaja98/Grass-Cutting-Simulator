@@ -1,32 +1,53 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 38016)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 38844)
-VBCSCompiler prewarm took 16.12 ms
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 42292)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 5924)
+VBCSCompiler prewarm took 33.14 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili" at "2026-10-01T17:16:31.4304923Z"
 Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) Core' Language: 'fi' Physical Memory: 32023 MB
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32451 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-01T17:16:31Z
+Date: 2026-10-01T17:21:55Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA" at "2026-10-01T17:21:55.0720247Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17596, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9ab3eac3b6a64f4b860b5eec67b21622
+  Correlation Id:          d115a782ca8968c2ff33704db9d6d565
+  External correlation Id: 4652641997442865878
+  Machine Id:              FsxY2Qad/u72lkyk2UQIeosbrXw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ARA" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ARA-notifications" at "2026-10-01T17:21:55.1626111Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token dE-LjObwbU...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5774129977459-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
 -projectpath
-C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator
+C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-Vili
+LicenseClient-ARA
 -hubSessionId
-69835624-8f0c-4b81-a7d2-00a5d8e704da
+9a25e426-b2aa-4520-ad1c-bc76b00febe1
 -accessToken
-0BpFw1xhmXM8o--xTsplS8b5uNsn3Ioe56qDAmjAnoI005f
-Successfully changed project path to: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator
-C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+dE-LjObwbUMIAPchNzZlJqr1c8mCwlaaUQ-5aXO3cJE005f
+Successfully changed project path to: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator
+C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -64,66 +85,28 @@ C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [34788]  Target information:
+Player connection [38832]  Target information:
 
-Player connection [34788]  * "[IP] 192.168.1.217 [Port] 55504 [Flags] 2 [Guid] 110393837 [EditorId] 110393837 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38832]  * "[IP] 192.168.100.24 [Port] 55504 [Flags] 2 [Guid] 2721829100 [EditorId] 2721829100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FH60KNT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34788]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 110393837 [EditorId] 110393837 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [34788]  * "[IP] 169.254.123.238 [Port] 55504 [Flags] 2 [Guid] 110393837 [EditorId] 110393837 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [34788] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38832] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38832] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-31384" after 0.2 seconds.
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.3'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vili"
-[Licensing::IpcConnector] LicenseClient-Vili channel disconnected successfully.
-[Licensing::IpcConnector] Channel LicenseClient-Vili-6000.6.3 doesn't exist
-[Licensing::Module] Successfully launched the LicensingClient (PId: 6124)
-Starting IPC server.
-Waiting for clients to connect on \\.\pipe\Unity-LicenseClient-Vili-6000.6.3, press Ctrl-C to exit.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3" at "2026-10-01T17:16:32.3751647Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6124, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.3+d7ffd15
-  Session Id:              8c086d0631d24dbcb1aa36a0f66a02ee
-  Correlation Id:          28b08125fc7fc7b52da5bcada122f196
-  External correlation Id: 6620228563044275208
-  Machine Id:              PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vili-6000.6.3" (connect: 0.25s, validation: 0.13s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3-notifications" at "2026-10-01T17:16:32.5057218Z"
-[Licensing::Module] Connected to LicensingClient (PId: 6124, launch time: 0.01, total connection time: 0.38s)
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token 0BpFw1xhmX...
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 5773977707800-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 1.11s
-[Licensing::Module] Licensing is initialized (took 0.76s).
+[Package Manager] Connected to IPC stream "Upm-20016" after 0.2 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Resource namespace: cc13ed0f4855ae4f5477f0ef9e7797cf
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: false
 Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Tools/Unity.DataStore.exe 
-Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting SimulatorUnity Data Store running and initialised
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting SimulatorUnity Data Store running and initialised
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -133,286 +116,562 @@ Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Vili/D
 Initialize engine version: 6000.6.3f1 (45d8eee7de74)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
 GfxDevice: creating device client; kGfxThreadingModeThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
     Vendor:   NVIDIA
-    VRAM:     15995 MB
-    Driver:   32.0.16.1074
+    VRAM:     12010 MB
+    Driver:   32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001331 seconds.
+Registered in 0.001548 seconds.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.602 seconds
-Domain Reload Profiling: 1009ms
-	BeginReloadAssembly (124ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (3ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (100ms)
-		TypeCache.Refresh (147ms)
-			TypeCache.ScanAssembly (136ms)
+- Finished resetting the current domain, in  1.594 seconds
+Domain Reload Profiling: 2324ms
+	BeginReloadAssembly (111ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (80ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (90ms)
+		TypeCache.Refresh (398ms)
+			TypeCache.ScanAssembly (227ms)
 		AnalyzeDomain (1ms)
-	FinalizeReload (603ms)
+	FinalizeReload (1596ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (203ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (70ms)
+			ProcessInitializeOnLoadMethodAttributes (884ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 59 packages:
   Packages from [https://packages.unity.com]:
-    com.unity.ai.navigation@2.0.14 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
-    com.unity.collab-proxy@2.13.6 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
-    com.unity.ide.rider@3.0.38 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
-    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
-    com.unity.inputsystem@1.20.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
-    com.unity.visualscripting@1.9.12 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
-    com.unity.searcher@4.9.5 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.searcher@a463122f2c00)
-    com.unity.profiling.core@1.0.3 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
-    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
   Built-in packages:
-    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
-    com.unity.test-framework@1.8.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.test-framework@80f691d4262b)
-    com.unity.timeline@6.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.timeline@c56d56b0070b)
-    com.unity.ugui@2.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ugui@0727b404f3a0)
-    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.tetgen)
-    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.timelinefoundation)
-    com.unity.modules.ui@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.ext.nunit@2.1.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
-    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
-    com.unity.shadergraph@17.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
-    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
-    com.unity.graph-authoring@1.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
-    com.unity.burst@2.0.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.burst@626e66ab421b)
-    com.unity.collections@6.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.collections@10fff0607388)
-    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.universal@327d93d1cbc8)
+    com.unity.test-framework@1.8.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.core@02d75770e4b3)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.shadergraph@1dd0fd24b57e)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.01 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+WorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 0s224ms
-[755/969    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.20 seconds), 1 items updated, 969 evaluated
-AssetDatabase: script compilation time: 0.573616s
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+ExitCode: 4 Duration: 0s482ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[754/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.45 seconds), 2 items updated, 753 evaluatedWorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+
+ExitCode: 0 Duration: 0s786ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+ExitCode: 0 Duration: 0s782ms
+Finished compiling graph: 974 nodes, 18875 flattened edges (16071 ToBuild, 148 ToUse), maximum node priority 1022
+[537/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[538/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[754/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[962/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[963/970    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 149 defines and 351 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[964/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[965/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[966/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[967/970    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 374 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[968/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[969/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.76 seconds), 11 items updated, 970 evaluated
+AssetDatabase: script compilation time: 2.831787s
 Begin MonoManager ReloadAssembly
+Total cache size 229524228
+Total cache size after purge 229524228, took 00:00:00.1522937
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1453ms
-	BeginReloadAssembly (287ms)
-		DisableScriptedObjects (21ms)
-		CreateAndSetChildDomain (139ms)
-	RebuildCommonClasses (6ms)
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1523ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (7ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (451ms)
-		LoadAssemblies (264ms)
-		TypeCache.Refresh (113ms)
-			TypeCache.ScanAssembly (102ms)
-		AnalyzeDomain (54ms)
-			BuildScriptInfoCaches (47ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (267ms)
+		TypeCache.Refresh (124ms)
+			TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (64ms)
+			BuildScriptInfoCaches (56ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (655ms)
+	FinalizeReload (786ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
-			AfterProcessingInitializeOnLoad (4ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Starting new worker id: 0 with log in C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/AssetImportWorkerHW0.log
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Starting new worker id: 0 with log in C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'bde7d63f0bd0d67aae62f32cc2ab77f8') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=2350f972e973b49d4da626b80c643ba8 StaticDependenciesID=3ddf56cd73b9f5353da4d13c9e1a5e51 
 
-Asset Pipeline Refresh (id=905c5ef2dec7b9f47a05ec033925f2f5): Total: 2.551 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=6eb5b36dea5886d459fbcb999e80f940): Total: 5.072 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
-		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1041 ms
-		Asset DB Callback time: managed=32 ms, native=13 ms
-		Scripting: domain reloads=1, domain reload time=842 ms, compile time=575 ms, other=45 ms
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=1243 ms
+		Asset DB Callback time: managed=132 ms, native=29 ms
+		Scripting: domain reloads=1, domain reload time=786 ms, compile time=2833 ms, other=45 ms
 		Project Asset Count: scripts=1368, non-scripts=2317
-		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Asset File Changes: new=0, changed=1, moved=0, deleted=190
 		Scan Filter Count: 0
-	InvokePackagesCallback: 15.426ms
-	ApplyChangesToAssetFolders: 0.746ms
-	Scan: 127.288ms
-	Collect global state as custom dependencies: 13.920ms
-	CategorizeScriptCompilationAssets: 28.372ms
-	ProcessAssetsWithTransientArtifactChanges: 48.045ms
-	CategorizeAssets: 35.974ms
-	CompileScripts: 575.193ms
-	ImportOutOfDateAssets: 670.069ms (660.504ms without children)
-		UnloadImportedAssets: 0.555ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.458ms
-		ImportSchedulerStart: 8.513ms
-	PostProcessAllAssets: 32.292ms
-		MonoPostProcessAllAssets: 32.237ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.045ms
-			SyncVS.PostprocessSyncProject 7.663ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.250ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.212ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.639ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.539ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.384ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.196ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.172ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.147ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.112ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.107ms
-	UnloadStreamsBegin: 1.539ms
-	PersistCurrentRevisions: 0.092ms
-	GenerateScriptTypeHashes: 0.907ms
-	GenerateScriptTypeSerializationHashes: 1.696ms
-	Untracked: 985.635ms
+	InvokePackagesCallback: 23.453ms
+	ApplyChangesToAssetFolders: 0.503ms
+	Scan: 63.826ms
+	Collect global state as custom dependencies: 18.120ms
+	OnSourceAssetsModified: 1.337ms
+	CategorizeScriptCompilationAssets: 142.607ms
+	ProcessAssetsWithTransientArtifactChanges: 49.793ms
+	CategorizeAssets: 35.986ms
+	CompileScripts: 2833.326ms
+	ImportOutOfDateAssets: 807.635ms (790.931ms without children)
+		ImportManagerImport: 5.722ms (0.851ms without children)
+		UnloadImportedAssets: 1.456ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.426ms
+		ImportSchedulerStart: 9.064ms
+	PostProcessAllAssets: 136.005ms
+		VCAutoAddAssetPostprocess 0.638ms
+		XRBuildSystem.XRAssetImported 0.355ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.199ms
+		AssemblyValidation.PostprocessAllAssets 0.157ms
+		MonoPostProcessAllAssets: 131.307ms
+			AssetPostprocessor.OnPostprocessAllAssets 74.679ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 11.122ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 10.861ms
+			AssetChangedListener.OnPostprocessAllAssets 5.089ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 5.054ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.212ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.537ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.268ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.927ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.785ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.716ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.618ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.614ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.495ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.427ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.412ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.386ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.304ms
+			PostProcessor.OnPostprocessAllAssets 0.270ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.250ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.214ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.209ms
+			AssetEvents.OnPostprocessAllAssets 0.169ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.143ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.137ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.130ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.128ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.119ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.105ms
+			SyncVS.PostprocessSyncProject 0.103ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.098ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.094ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.093ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.055ms
+	PostAssetChangesProfiler: 3.076ms
+	UnloadStreamsBegin: 1.119ms
+	PersistCurrentRevisions: 0.633ms
+	GenerateScriptTypeHashes: 0.929ms
+	GenerateScriptTypeSerializationHashes: 1.731ms
+	Untracked: 936.576ms
 
 Application.AssetDatabase Initial Refresh End
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Scanning for USB devices : 2.423ms
+Scanning for USB devices : 1.675ms
 Initializing Unity extensions:
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Grass Cutting Simulator
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6587 unused Assets / (8.1 MB). Loaded Objects now: 7593.
-Memory consumption went from 428.7 MB to 420.6 MB.
-Total: 9.332300 ms (FindLiveObjects: 0.542000 ms CreateObjectMapping: 0.294200 ms MarkObjects: 5.359400 ms  DeleteObjects: 2.878800 ms)
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            2.545 ms
+	Integration:            10.681 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   13.247 ms
+Unloading 6623 unused Assets / (10.1 MB). Loaded Objects now: 7591.
+Memory consumption went from 431.0 MB to 420.9 MB.
+Total: 7.241500 ms (FindLiveObjects: 0.535000 ms CreateObjectMapping: 0.268100 ms MarkObjects: 4.129000 ms  DeleteObjects: 2.108500 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-[LAYOUT] About to save layout C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/Vili/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ARA/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 <RI> Initializing input.
 Using Windows.Gaming.Input
-[Project] Loading completed in 6.480 seconds
-	Project init time: 				5.484 seconds
+[Project] Loading completed in 10.428 seconds
+	Project init time: 				9.492 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.941 seconds
-		Asset Database init time: 		0.204 seconds
-		Global illumination init time: 	0.003 seconds
-		Assemblies load time: 			1.044 seconds
-		Unity extensions init time: 	0.023 seconds
-		Asset Database refresh time: 	2.551 seconds
-	Scene opening time: 			0.762 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790874997717,"processId":31384,"projectLoad":6.4801452,"projectInit":5.4840121,"templateInit":0.0,"packageManagerInit":0.9411595,"assetDatabaseInit":0.2036556,"globalIlluminationInit":0.0025818,"assembliesLoad":1.0444514,"unityExtensionsInit":0.0227699,"assetDatabaseRefresh":2.5510425,"sceneOpening":0.7616965}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790874997717,"processId":31384,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+		Package Manager init time: 		0.162 seconds
+		Asset Database init time: 		0.249 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			2.369 seconds
+		Unity extensions init time: 	0.013 seconds
+		Asset Database refresh time: 	5.072 seconds
+	Scene opening time: 			0.702 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790875325459,"processId":20016,"projectLoad":10.4281484,"projectInit":9.4922892,"templateInit":0.0,"packageManagerInit":0.1615839,"assetDatabaseInit":0.2486326,"globalIlluminationInit":0.0023542,"assembliesLoad":2.3691075,"unityExtensionsInit":0.0129334,"assetDatabaseRefresh":5.0719868,"sceneOpening":0.7018903}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790875325459,"processId":20016,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
 Worker ready: AssetImportWorkerHW0 0
 GPU Resident Drawer created.
-Asset Pipeline Refresh (id=8379350a1440cae4cb5c20e6f1f090f2): Total: 0.057 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c64f254f9dfad2d4c83a620931f3c8a5): Total: 0.057 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Created GICache directory at C:/Users/Vili/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.015s, timestamps: [7.419 - 7.434]
+Created GICache directory at C:/Users/ARA/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.009s, timestamps: [11.368 - 11.377]
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "0BpFw1xh"... (expires: 2026-10-01T19:05:00Z)
-Project ID request failed, Reason: The requested URL returned error: 403 (403).
-Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/7d824529-088f-4f09-9f4c-c0d29d82a747", HTTP error code 403
-.[Licensing::Client] Successfully resolved entitlement details
-TrimDiskCacheJob: Current cache size 0mb
-Asset Pipeline Refresh (id=76035003b2522db4d8d76459a8dfd5f1): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=edfd2e9dde730244f98af9ea3a517191): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=9a686027eb216184da308ca1ffea2bdb): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=f355355c2bbf56b499fc757c97c03a54): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=ee2c14a2483cab746a2bf95a232fd55f): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Starting new worker id: 1 with log in C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/AssetImportWorkerHW1.log
-[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: PreviewImporter -> (ImportResultId: '13a9422910d31503cb354fec3d31c2a2') in 0.0127904 seconds
-Opening scene 'Assets/Scenes/SampleScene.unity'
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Loaded scene 'Assets/Scenes/SampleScene.unity'
-	Deserialize:            3.436 ms
-	Integration:            16.871 ms
-	Integration of assets:  0.001 ms
-	Thread Wait Time:       0.021 ms
-	Total Operation Time:   20.329 ms
-Unloading 57 unused Assets / (17.5 MB). Loaded Objects now: 8810.
-Memory consumption went from 0.61 GB to 0.59 GB.
-Total: 11.830500 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.138600 ms MarkObjects: 7.358800 ms  DeleteObjects: 3.560000 ms)
-
+[Licensing::Module] Successfully updated access token: "dE-LjObw"... (expires: 2026-10-01T17:27:21Z)
+Starting new worker id: 1 with log in C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '20257c8498c14c82ca619fdf4ec9cf86') in 0.0562255 seconds
+UPID Received '7d824529-088f-4f09-9f4c-c0d29d82a747'.
+[Licensing::Client] Successfully resolved entitlement details
 Worker ready: AssetImportWorkerHW1 1
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Asset Pipeline Refresh (id=258415f353c910940a9c257e8ed9d481): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Request Asset Garbage Collect because used heap size increased from 420.6 MB to 0.66 GB, exceeding the threshold of 256.0 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (16.9 MB). Loaded Objects now: 8968.
+Memory consumption went from 0.66 GB to 0.64 GB.
+Total: 11.094900 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.098100 ms MarkObjects: 7.923700 ms  DeleteObjects: 2.453000 ms)
+
+TrimDiskCacheJob: Current cache size 0mb
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: PreviewImporter -> (ImportResultId: '9bc235e7047f81341556d3b1c6856824') in 0.0074404 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Asset Pipeline Refresh (id=b2cd87939f0476848b2bed6a55ba03d0): Total: 0.015 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+ExitCode: 4 Duration: 0s178ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[756/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.16 seconds), 1 items updated, 755 evaluatedStarting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+
+WorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+ExitCode: 0 Duration: 0s792ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator
+ExitCode: 0 Duration: 0s773ms
+Finished compiling graph: 974 nodes, 18875 flattened edges (16071 ToBuild, 148 ToUse), maximum node priority 1022
+[537/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[538/970    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[754/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[962/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[963/970    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 149 defines and 351 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[964/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[965/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[966/970    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[967/970    0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 147 defines and 374 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[968/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[969/970    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.75 seconds), 11 items updated, 970 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 229524228
+Total cache size after purge 229524228, took 00:00:00.1431900
+GPU Resident Drawer disposed.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.575 seconds
+Domain Reload Profiling: 2308ms
+	BeginReloadAssembly (384ms)
+		DisableScriptedObjects (120ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (102ms)
+		TypeCache.Refresh (8ms)
+		AnalyzeDomain (144ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1576ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (647ms)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_logs.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_River_Rock_Pile_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01_split.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Bridge/PT_Wooden_Bridge_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green_cut.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green_cut.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Ore_Rock_01.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_stump.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_03.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_01.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_logs.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_dead.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Menhir_Rock_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_stump.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Gate_Wood_01.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_pears.fbx)
+
+Asset Pipeline Refresh (id=0d46c106430812641a21b0bca2c8ad25): Total: 4.708 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=368 (actual=0, local cache=368, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1758 ms
+		Asset DB Callback time: managed=88 ms, native=101 ms
+		Scripting: domain reloads=1, domain reload time=773 ms, compile time=1986 ms, other=0 ms
+		Project Asset Count: scripts=1409, non-scripts=2461
+		Asset File Changes: new=187, changed=187, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.562ms
+	ApplyChangesToAssetFolders: 0.219ms
+	Scan: 50.477ms
+	Collect global state as custom dependencies: 2.719ms
+	OnSourceAssetsModified: 5.960ms
+	CategorizeScriptCompilationAssets: 0.112ms
+	ProcessAssetsWithTransientArtifactChanges: 3.003ms
+	CategorizeAssets: 39.118ms
+	CompileScripts: 1986.060ms
+	ImportOutOfDateAssets: 1585.958ms (1583.381ms without children)
+		CollectScriptTypesHashes: 1.135ms
+		ReloadNativeAssets: 0.718ms
+		UnloadImportedAssets: 1.093ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.468ms
+		ImportSchedulerStart: 0.270ms
+	PostProcessAllAssets: 182.328ms
+		ShaderAssetModifiedCallback 67.877ms
+		VersionControlSettings.HiddenFilePostprocess 7.137ms
+		PostprocessAssetsUpdateCachedIcon 0.545ms
+		XRBuildSystem.XRAssetImported 0.350ms
+		ComputeShaderImportPostprocess 0.325ms
+		PostProcessCallbackCreateDeferredMaterials 0.266ms
+		SpeedTreeImporter.PostprocessAllAssets 0.227ms
+		RaytracingShaderImportPostprocess 0.221ms
+		BlockShaderImporter.PostprocessAllAssets 0.121ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.117ms
+		AssemblyValidation.PostprocessAllAssets 0.089ms
+		MonoPostProcessAllAssets: 88.147ms
+			AssetPostprocessor.OnPostprocessAllAssets 26.116ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.795ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 5.519ms
+			AssetChangedListener.OnPostprocessAllAssets 4.621ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.809ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 1.754ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.634ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.434ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.390ms
+			PostProcessor.OnPostprocessAllAssets 1.212ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.208ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.927ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.874ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.858ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.766ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.701ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.629ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.535ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.392ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.363ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.335ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.224ms
+			PT_ImportDetector.OnPostprocessAllAssets 0.180ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.171ms
+			AssetEvents.OnPostprocessAllAssets 0.141ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.140ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.127ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.112ms
+			SyncVS.PostprocessSyncProject 0.108ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.102ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.102ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.091ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.089ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.078ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.053ms
+	PostAssetChangesProfiler: 2.195ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.159ms
+	UnloadStreamsBegin: 0.965ms
+	PersistCurrentRevisions: 0.568ms
+	GenerateScriptTypeHashes: 2.123ms
+	GenerateScriptTypeSerializationHashes: 3.673ms
+	Untracked: 834.806ms
+
+Asset Pipeline Refresh (id=587f1bf769e467e49bed44b48e056d8e): Total: 0.008 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GPU Resident Drawer created.
 Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
 Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
-Asset Pipeline Refresh (id=c569dd0c863d25e44a176326593a6375): Total: 0.039 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a3da565160a7367429bc2fd058201787 - Path: Assets/New Terrain.asset' with importer (NativeFormatImporter)
+Imported 'GUID: a3da565160a7367429bc2fd058201787' -> (Import Result ID: '9e27b172360b54907ff9150bab2268a4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=9167deb9f2db7403b81a30efa77e0b45 DependenciesID=14df9ef0c712ab1552a96b882399ec37 StaticDependenciesID=f18230ed47ad0b81a7e60ead959feccb 
+Asset Pipeline Refresh (id=d78657c18b6ab1a4494d257ac819f02d): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
-Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'e2516339e5c1ab227f2460b0ff40ba0d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=077f3e168466753424ead37b4ff87857 StaticDependenciesID=06e944f601a207cc613c8bd0738d8759 
-Asset Pipeline Refresh (id=b9daf74bb5830a445a3d6101c8fe1caf): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '855dbd6cf0d9888e0c8b6c4d22967491') in 0.0498321 seconds
-MonoPathRemapper: Attempts to remap: 35376; Successful remaps: 19076
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '2a9d42b70e241b6337e7281fd920d32e') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=517f9b976ae2f8e5710f6476c2951af2 StaticDependenciesID=066c0e2db618051c59d3b4ea95e421d7 
+Asset Pipeline Refresh (id=839540ede810ce9459f975c3d374c652): Total: 0.026 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9f13a8e6c0169ca40804b812411849c7): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: a3da565160a7367429bc2fd058201787 - Path: Assets/New Terrain.asset - Importer: PreviewImporter -> (ImportResultId: '926b4e35370080aa5102ed8b58ef42ae') in 0.047727 seconds
+Importing 'GUID: 36986a7ae10be8447a485caceba8c0ab - Path: Assets/a_low_poly_3D_model_o_0928225801_refine.fbx' with importer (FBXImporter)
+Imported 'GUID: 36986a7ae10be8447a485caceba8c0ab' -> (Import Result ID: '50067d274486b3faad1209bc323a0703') in 0.222 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53f5bca1c01ae0152080acd2673e3483 DependenciesID=be67295235601adbf588ddc8b9535983 StaticDependenciesID=54c48470d573eca96d7c60887eb329cd 
+Asset Pipeline Refresh (id=10f7a7b42f34c4f468115d66ce450c9d): Total: 0.260 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=452a8a8d72782b94f9ca89facbf9522c): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '2f3e2f6ae004b707bec2c0446b31107d') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=77c483a73cdbdc592fa6a39ccdad3492 StaticDependenciesID=9ff261648655f282115737ab75623140 
+Asset Pipeline Refresh (id=1fc27e92532b38443b51c80e5d2c4bde): Total: 0.028 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 51017; Successful remaps: 19078
 Serialized file version minimum: 22, current 23
-[LAYOUT] About to save layout C:\Users\Vili\Desktop\github\Grass-Cutting-Simulator\Grass Cutting Simulator\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/Vili/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\ARA\Documents\GitHub\Grass-Cutting-Simulator\Grass Cutting Simulator\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/ARA/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 GPU Resident Drawer disposed.
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-Vili-6000.6.3-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-Vili-6000.6.3 channel disconnected successfully.
-Shut down.
+[Licensing::IpcConnector] LicenseClient-ARA-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ARA channel disconnected successfully.
 Lingering sessions upon destruction of worker manager
 Unity Data Store service was successfully shut down
 UDS shutting down local client system
@@ -420,17 +679,17 @@ Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000003110, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000005BB4, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000007108, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000007B3C, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000003110, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000005BB4, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000007108, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000007B3C, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 4556
+debugger-agent: Unable to listen on 4616
 VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
 Checking for leaked weakptr:
   Found no leaked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790875159206,"processId":31384,"allocatedMemory":18026768,"memoryLabels":[{"Default":203888},{"Permanent":15516},{"NewDelete":71065},{"Thread":4197944},{"Manager":2340701},{"VertexData":8},{"Geometry":816},{"Shader":857209},{"Material":68},{"TextureCache":1976},{"GfxDevice":55968},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":16928},{"Input":45280},{"JobScheduler":256},{"TextLib":28381},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1304736},{"BaseObject":49136},{"Resource":1252},{"Renderer":2384},{"Transform":4685},{"File":28176},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":442468},{"StaticString":3808},{"Utility":2675514},{"Curl":1436},{"PoolAlloc":2840},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7440},{"WebRequest":552},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":540},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":592},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268094},{"EditorUtility":179340},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4671981},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37750},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":210},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3598},{"Windowing":456},{"Licensing":696},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790875451172,"processId":20016,"allocatedMemory":19433044,"memoryLabels":[{"Default":249165},{"Permanent":15516},{"NewDelete":77489},{"Thread":4198024},{"Manager":2343389},{"VertexData":8},{"Geometry":816},{"Shader":856284},{"Material":68},{"TextureCache":760},{"GfxDevice":55968},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33560},{"Input":45280},{"JobScheduler":256},{"TextLib":61171},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1326968},{"BaseObject":48912},{"Resource":1252},{"Renderer":2384},{"Transform":4685},{"File":28184},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":1262208},{"StaticString":3808},{"Utility":2676626},{"PoolAlloc":2840},{"AI":80},{"TypeTree":448182},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":6193},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268120},{"EditorUtility":187117},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4672104},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":256},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3596},{"Windowing":456},{"Licensing":12771},{"AssetReference":32},{"IPCStream":32}]}
