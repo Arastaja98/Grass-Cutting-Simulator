@@ -1,19 +1,19 @@
 
 Server arguments:
   --memory-size 1073741824
-  --shared-postfix dea073b6a550bc21f8c3db02f12f4e48
+  --shared-postfix cc13ed0f4855ae4f5477f0ef9e7797cf
   --working-directory Library/DataStore
   --silent-console
   --shutdown-grace 0
   --client-process-check 0
-  --uds-log-file C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/UDS-Service.log
+  --uds-log-file C:/Users/ARA/Documents/GitHub/Grass-Cutting-Simulator/Grass Cutting Simulator/Logs/UDS-Service.log
   --debug-log 2
   -name
   Unity.DataStore
 
 Initialising UDS system complete:
   - System type: Service
-  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Resource namespace: cc13ed0f4855ae4f5477f0ef9e7797cf
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192

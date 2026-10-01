@@ -1,0 +1,401 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.3f1 (45d8eee7de74) revision 4577518'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili" at "2026-10-01T17:26:00.3888523Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'fi' Physical Memory: 32023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-01T17:26:00Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW4
+-projectPath
+C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+-logFile
+Logs/AssetImportWorkerHW4.log
+-srvPort
+31172
+-parentPid
+21032
+-analyticsCloudUserId
+5773977707800
+-analyticsCloudProjectId
+7d824529-088f-4f09-9f4c-c0d29d82a747
+-analyticsLocalProjectId
+387bd64261cf92e44b2bed5e80f963ff
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+cb9776e15f345ce24656809293ac4ff9fbc95dd9
+-cbmMachineId
+PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+-licensingIpc
+LicenseClient-Vili
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [30304]  Target information:
+
+Player connection [30304]  * "[IP] 192.168.1.217 [Port] 0 [Flags] 2 [Guid] 2825067019 [EditorId] 2825067019 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30304]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2825067019 [EditorId] 2825067019 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30304]  * "[IP] 169.254.123.238 [Port] 0 [Flags] 2 [Guid] 2825067019 [EditorId] 2825067019 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9AEMHAV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: dea073b6a550bc21f8c3db02f12f4e48
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Vili/Desktop/github/Grass-Cutting-Simulator/Grass Cutting Simulator/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:          NVIDIA
+    VRAM:            15995 MB
+    App VRAM Budget: 15227 MB
+    Driver:          32.0.16.1074
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.3'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Vili"
+[Licensing::IpcConnector] LicenseClient-Vili channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3" at "2026-10-01T17:26:01.2220309Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16672, path: "C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              b8f8b40218104a518c34285662541cd5
+  Correlation Id:          947898cfd82374f4dad27c0b7eaf9e4d
+  External correlation Id: 833096646951559178
+  Machine Id:              PyBBTEDoBxvTxxwF9jJ6rtLMgCY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Vili-6000.6.3" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Vili-6000.6.3-notifications" at "2026-10-01T17:26:01.2276424Z"
+[Licensing::Module] Licensing Background thread has ended after 0.84s
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001147 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (102ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (99ms)
+		TypeCache.Refresh (149ms)
+			TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (337ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773977707800-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1197ms
+	BeginReloadAssembly (168ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (270ms)
+		TypeCache.Refresh (116ms)
+			TypeCache.ScanAssembly (102ms)
+		AnalyzeDomain (51ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (511ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6578 unused Assets / (6.6 MB). Loaded Objects now: 7501.
+Memory consumption went from 355.3 MB to 348.7 MB.
+Total: 5.944200 ms (FindLiveObjects: 0.912300 ms CreateObjectMapping: 0.252500 ms MarkObjects: 3.516600 ms  DeleteObjects: 1.050500 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:11.1980242Z
+  Time since last request: 257431.11890120001044 seconds.
+  importAddress: GUID: 96a08e9b3a862214b8c94c891f9b5a83 - Path: Assets/Polytope Studio/Lowpoly_Demos - Importer: PreviewImporter
+Importing 'GUID: 96a08e9b3a862214b8c94c891f9b5a83 - Path: Assets/Polytope Studio/Lowpoly_Demos - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 96a08e9b3a862214b8c94c891f9b5a83' -> (Import Result ID: '45de257783bc10c6b40df984b6fa4abd') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ecbd0bd5ff53b537839c007c17b96d85 DependenciesID=763a8e059aa0efe23839e655a33f8ea5 StaticDependenciesID=dc146f717da3fde4a579834c1ab03b51 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:12.4159103Z
+  Time since last request: 1.204993 seconds.
+  importAddress: GUID: 5c2928345bc8a9f4793d01e4fcd0b64d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free - Importer: PreviewImporter
+Importing 'GUID: 5c2928345bc8a9f4793d01e4fcd0b64d - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c2928345bc8a9f4793d01e4fcd0b64d' -> (Import Result ID: 'd1615c696d3bbf6016d0468928bab802') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa6b78bf033b3ecd96d7d438f69875e3 DependenciesID=a3a8504c5ac38a6ea516d2b17e4ca6a6 StaticDependenciesID=6d8ce847ae5982a365a4ea7df831733b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:14.4349877Z
+  Time since last request: 2.0109265 seconds.
+  importAddress: GUID: 290c306efce63f0419ccb2974a325792 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers - Importer: PreviewImporter
+Importing 'GUID: 290c306efce63f0419ccb2974a325792 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 290c306efce63f0419ccb2974a325792' -> (Import Result ID: 'ba95add45d46eeb4f544f62a197dfa24') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3de45908129b996dee51f177706ee335 DependenciesID=4a5cc69fa62097f5ad4d710b747f66c8 StaticDependenciesID=86fdc73dfbd5d3e8c812e540e8880fcd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:14.4951227Z
+  Time since last request: 0.0526989 seconds.
+  importAddress: GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: PreviewImporter
+Importing 'GUID: 516f5b8c780f050499e83e3e45588ae9 - Path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Fence.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 516f5b8c780f050499e83e3e45588ae9' -> (Import Result ID: '1b6354e9bf232c7d6588324e78763d88') in 0.283 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=512f5df37cf8a42ca586a4bf580040e3 DependenciesID=ac0bfe2ed9b8b1950ef03fb63e1050b5 StaticDependenciesID=2b86d01173fe732d70107bf97402167e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:26:16.7624298Z
+  Time since last request: 1.9764573 seconds.
+  importAddress: GUID: b458cb1c79cb9894196830046f2621fa - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_01.png - Importer: PreviewImporter
+Importing 'GUID: b458cb1c79cb9894196830046f2621fa - Path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_01.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b458cb1c79cb9894196830046f2621fa' -> (Import Result ID: '941d6c4d8dd706125289c119a6ed9150') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3109195c21750b4739a2ddff0146a2e2 DependenciesID=7a41179ca2e5b877e89399bbfd9c530c StaticDependenciesID=62f4a368f5a8a4346b7ba03f6c251aad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:31.4289295Z
+  Time since last request: 74.6371189 seconds.
+  importAddress: GUID: 5228c984e5be7284d8d83c18096254dd - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 5228c984e5be7284d8d83c18096254dd - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5228c984e5be7284d8d83c18096254dd' -> (Import Result ID: '2ca32fbad21f96f2c674a9c38813be7c') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9786b2754746f2fad2097e037b45998b DependenciesID=047b7e9c5ba28908ed01c2bfe9d05a3d StaticDependenciesID=fb32e748fec75294f50f43b37305387c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:31.4466669Z
+  Time since last request: 0.0002766 seconds.
+  importAddress: GUID: c6a512d95615f534cbe31aba1aaa354c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab - Importer: PreviewImporter
+Importing 'GUID: c6a512d95615f534cbe31aba1aaa354c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c6a512d95615f534cbe31aba1aaa354c' -> (Import Result ID: '0f2f21c6bdf0e652eea51fa986edd5de') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=694eb36b40ab96045a8ef0a439709f4c DependenciesID=197d430022a78740581e148a15857d1f StaticDependenciesID=6aa391b202f024150326f1f4586a8b1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:33.8384365Z
+  Time since last request: 2.377602 seconds.
+  importAddress: GUID: 66d0615cc71cd48408b75ff3f99c97af - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab - Importer: PreviewImporter
+Importing 'GUID: 66d0615cc71cd48408b75ff3f99c97af - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead_cut.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 66d0615cc71cd48408b75ff3f99c97af' -> (Import Result ID: 'fcda5d72adf639a7fb5e5a3faad79f1f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e526c9e3b63adf7c17937062304f25ec DependenciesID=adc3c2a33349b95c14025b0e9cbb2477 StaticDependenciesID=b83e98ab2704b02248f153575f0140d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:33.9410155Z
+  Time since last request: 0.0874615 seconds.
+  importAddress: GUID: c31bf8ec8e29cd74f9fb9a970fde7a53 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab - Importer: PreviewImporter
+Importing 'GUID: c31bf8ec8e29cd74f9fb9a970fde7a53 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c31bf8ec8e29cd74f9fb9a970fde7a53' -> (Import Result ID: '136f1f00c680cc754f28a5d00bc4f4b0') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dd69bece6a36587086fd6c2570e5029 DependenciesID=5136af52122fc66662492387374a2862 StaticDependenciesID=0ce7e04fb5f54da2d9d4222ba9c3051a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:33.9825843Z
+  Time since last request: 0.0239787 seconds.
+  importAddress: GUID: c0fdfdeafe3a1404a8766f946dd531d0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab - Importer: PreviewImporter
+Importing 'GUID: c0fdfdeafe3a1404a8766f946dd531d0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green_cut.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c0fdfdeafe3a1404a8766f946dd531d0' -> (Import Result ID: '4f8c0f5b3ff3685819542564e7370c70') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=809ebaa827b5c85d878167b3eb35fe66 DependenciesID=10778b35803c629d93b422592e895c3c StaticDependenciesID=00e12f63aba90e3f0c6603185d115837 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:34.558973Z
+  Time since last request: 0.5608189 seconds.
+  importAddress: GUID: c0c32672766a81647b04690fc9ed3595 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab - Importer: PreviewImporter
+Importing 'GUID: c0c32672766a81647b04690fc9ed3595 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c0c32672766a81647b04690fc9ed3595' -> (Import Result ID: 'e2d4bfe94856ba6e39d075de5862ee9f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a04f36ac9109830806307876d65053e DependenciesID=4080325d9cab09d9a7aebf0207b4fdec StaticDependenciesID=745b9858584e31f7ef8c6b880987459a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:34.5791746Z
+  Time since last request: 0.0055465 seconds.
+  importAddress: GUID: b62637568d07eb141b948ab45ea8c3d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab - Importer: PreviewImporter
+Importing 'GUID: b62637568d07eb141b948ab45ea8c3d4 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b62637568d07eb141b948ab45ea8c3d4' -> (Import Result ID: 'ecfa4e36f68974588b5e6882de1566ab') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d350cfe9090e4693b1fa6897624cf165 DependenciesID=a764dabbc81b5e1344641c64f107cf41 StaticDependenciesID=77210e36c7442205053947c1cff2cb96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:34.9051497Z
+  Time since last request: 0.3099758 seconds.
+  importAddress: GUID: 367ab66e2689a8345a8fb8fd14a4f90c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab - Importer: PreviewImporter
+Importing 'GUID: 367ab66e2689a8345a8fb8fd14a4f90c - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 367ab66e2689a8345a8fb8fd14a4f90c' -> (Import Result ID: 'b66abbebd9bf6393b068184117f8219a') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efb02ab93c8390511fc0ea834992bc72 DependenciesID=77da7a1b112101946edbd03cb1ac0669 StaticDependenciesID=5267b9340acee24386b3fe4a615463fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:34.939675Z
+  Time since last request: 0.0170622 seconds.
+  importAddress: GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: PreviewImporter
+Importing 'GUID: 58cd8dc8c2359174baa15aa31e302c8b - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Generic_Rock_01.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 58cd8dc8c2359174baa15aa31e302c8b' -> (Import Result ID: 'b5d4061127610199e9244a6bf0be1273') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24b6110156586b67a6a8650b54d74dbe DependenciesID=578f15a28056855839b8bd877d2538c1 StaticDependenciesID=e0cac1a9b234c2d374700cd6f6a82cc4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:35.1814929Z
+  Time since last request: 0.2225707 seconds.
+  importAddress: GUID: 8cf2966042f7c2f44ac97cda7cc59eff - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_dead.prefab - Importer: PreviewImporter
+Importing 'GUID: 8cf2966042f7c2f44ac97cda7cc59eff - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_dead.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8cf2966042f7c2f44ac97cda7cc59eff' -> (Import Result ID: '6cb4006a54dd588f1ed6c40bdfe6911a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e77395ed1dd79947d05f93b0fc61ca68 DependenciesID=866d28b91bb24415156324e4f37ae1eb StaticDependenciesID=2b63c668d1aee55d3ebf574578d472a2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:27:35.20929Z
+  Time since last request: 0.0136131 seconds.
+  importAddress: GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: PreviewImporter
+Importing 'GUID: ef8374d642969b14baa54045236c5fb0 - Path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ef8374d642969b14baa54045236c5fb0' -> (Import Result ID: 'de34fa0ad91bbf59bc4de8120f7662d9') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c23427b334f0c55200af2328a58e7513 DependenciesID=9518f5372e94906eefc60553ba757f4e StaticDependenciesID=4de1f46a763762618ef72c6052c5adaf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 7627.
+Memory consumption went from 372.3 MB to 369.2 MB.
+Total: 5.856100 ms (FindLiveObjects: 0.846300 ms CreateObjectMapping: 0.160900 ms MarkObjects: 4.234200 ms  DeleteObjects: 0.376000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-01T17:28:26.134828Z
+  Time since last request: 50.9053321 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '6cee6aa2692dc09718b5c3479e045c2e') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2707115b8205223c01de5632dbe2589e DependenciesID=c18a97eb9e1fb8d5ae65db3b6007a9fa StaticDependenciesID=b859bcddbd488858384124fc743c33ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
